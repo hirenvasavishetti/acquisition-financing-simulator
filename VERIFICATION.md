@@ -1,6 +1,6 @@
 # Verification record - 20 September 2026
 
-Engineering is complete within the documented educational scope. Historical clearance is incomplete and the strict evidence gate remains blocked. GitHub publication and hosted CI execution have not occurred.
+Engineering is complete within the documented educational scope. Historical clearance is incomplete and the strict evidence gate remains blocked. The project was published to GitHub on 9 October 2026. See the publication record below; earlier verification entries describe their status at the time.
 
 ## Local checks performed
 
@@ -54,3 +54,7 @@ Presentation-only redesign: charcoal/olive sidebar, lime actions, lavender chart
 - All three saved dashboards regenerated with self-contained CSS/JavaScript. Embedded payload equality and file-mode disabling were checked in code; a separate file-protocol browser execution was not performed. Saved scenarios remain local; live model edits require the server.
 - Wheel rebuilt and installed with CSS/JS assets included; installed renderer verified. Build needed a short clean staging path after Windows temporary-path and stale build-directory errors. No new dependencies added. GitHub publication is unchanged: not published.
 - Export button downloads the currently displayed JSON report. XLSX/PDF generation remains through the documented CLI, with no nonfunctional browser export buttons.
+
+## GitHub publication — 9 October 2026
+
+Published at https://github.com/hirenvasavishetti/acquisition-financing-simulator. All 136 initial publishing files were checked against their Git blob fingerprints before the branch was updated. The exact publishing copy passed 74 local tests (one optional Node exporter test skipped); the working source had previously passed all 74 with Node configured. GitHub-hosted Ubuntu / Python 3.11 CI passed for publication commit f2af9352fed6682f6e02aa75274fd66d8b34f31c (Actions run 37988727343): installation, unit tests, synthetic exports, pipeline checks, public-information exports and strict-block exit-code checks all succeeded. Generated SQLite files and local environments are excluded; the CLI recreates the databases. Source-extract bytes are preserved through `.gitattributes` to protect evidence integrity hashes. Publication does not resolve historical evidence gaps or host the live Python application.

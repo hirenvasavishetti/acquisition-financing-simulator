@@ -40,7 +40,7 @@ python scripts/verify_public.py public-generated
 
 After installation, use the environment's Python for each command (or activate it). Public and strict historical runs intentionally return exit code **2** while the strict recommendation is blocked; supported outputs are still written. Synthetic runs return 0. Exit 2 can also indicate invalid input—inspect the CLI `error` field.
 
-Saved examples: [synthetic dashboard](full-output/dashboard.html), [public dashboard](public-output/dashboard.html), and [strict assessment](historical-output/dashboard.html). Saved dashboards support scenario selection; assumption recalculation requires the live server. Each output folder contains the workbook, two-page PDF memo, JSON report, source/gap registers and SQLite history. Workbook formulas show selected reconciliations; forecasts and capacity are Python snapshots, not a separate Excel engine.
+Saved examples: [synthetic dashboard](full-output/dashboard.html), [public dashboard](public-output/dashboard.html), and [strict assessment](historical-output/dashboard.html). Saved dashboards support scenario selection; assumption recalculation requires the live server. The saved output folders include the workbook, two-page PDF memo, JSON report and source/gap registers. SQLite databases are generated locally when running the model and are excluded from version control. Workbook formulas show selected reconciliations; forecasts and capacity are Python snapshots, not a separate Excel engine.
 
 ## What makes the analysis defensible
 

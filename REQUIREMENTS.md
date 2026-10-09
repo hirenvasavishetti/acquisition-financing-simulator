@@ -1,6 +1,6 @@
 # Implementation and verification map
 
-Engineering is implemented for the documented educational scope. Historical evidence completeness and GitHub publication remain separate, unfinished tracks. Verification does not turn assumptions into historical facts.
+Engineering is implemented for the documented educational scope. Historical evidence completeness remains a separate, unfinished track. Source publication to GitHub is complete. Verification does not turn assumptions into historical facts.
 
 | Major requirement | Implementation | Verification / status |
 |---|---|---|
@@ -25,7 +25,7 @@ Engineering is implemented for the documented educational scope. Historical evid
 | Concise memo | portfolio_memo.py, pdf_memo.py | Three two-page PDFs generated from corresponding reports; six pages visually inspected |
 | Documentation and learning | README, METHODOLOGY, LEARNING, IMPROVEMENT_LOG | Current screenshot, exact commands, source-to-output interview walkthrough and before/after findings |
 | Tests, clean install and CI | tests; scripts/verify_pipeline.py; scripts/verify_public.py; workflow | 74 tests; installed package outside source tree; portable exports and live HTTP checks; hosted CI not run |
-| Publishing preparation | pyproject.toml, ignore rules, delivery ZIP | Local package excludes environments, dependency folders and inspection logs; not published to GitHub |
+| Publishing preparation | pyproject.toml, ignore rules, delivery ZIP | Public repository published 9 October 2026; environments, dependency folders, inspection logs and generated databases excluded |
 
 ## Remaining historical and scope limits
 
