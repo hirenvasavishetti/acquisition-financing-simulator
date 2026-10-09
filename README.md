@@ -1,5 +1,9 @@
 # Acquisition Financing & Debt Capacity Simulator
 
+**[Try the live simulator](https://acquisition-financing-simulator.onrender.com/)**
+
+Free hosting may take about a minute to wake after inactivity. The browser exports JSON; Excel/PDF exports and persistent SQLite history are available through the local CLI.
+
 How does paying for an acquisition with cash, borrowing or shares change liquidity, debt service and dilution? This Python project connects sources and uses, five-year operations, instrument-level debt and cash schedules, scenario analysis, debt capacity and reverse stress.
 
 The October dashboard redesign adds eight sidebar sections, live timing controls, a model-insight panel and JSON download. Saved scenario selection updates supporting schedules and charts; overview comparison cards stay on the base case.
@@ -16,7 +20,7 @@ Three clearly separated modes share the same calculation engine:
 ## Run it
 
 Hosting configuration and public-server limits are documented in [DEPLOYMENT.md](DEPLOYMENT.md).
-The repository includes a free-plan Render Blueprint. A live link will be added after deployment is verified.
+The repository includes a free-plan Render Blueprint. The live service opens in synthetic demonstration mode.
 
 Python 3.11 or newer. Run these commands from this repository folder:
 
@@ -58,4 +62,4 @@ This is an educational model, not executable financing advice. Actual covenant c
 
 Start with [the interview walkthrough](LEARNING.md), then [methodology](METHODOLOGY.md), [current public-case review](PUBLIC_CASE_REVIEW.md), [requirement map](REQUIREMENTS.md) and [verification record](VERIFICATION.md). The original [109-input review](INPUT_REVIEW.md) and [scope amendment](PUBLIC_INFORMATION_POLICY.md) remain intact. Earlier narrative results are preserved under `legacy/2026-09-16`; `example-output` is a legacy foundation example, not the current simulator.
 
-Automated checks do not constitute independent source verification. **Source and saved examples are published on GitHub. Live recalculation runs on your local Python server.**
+Automated checks do not constitute independent source verification. **Source and saved examples are published on GitHub. Live recalculation is available on Render or your local Python server.**

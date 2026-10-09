@@ -1,5 +1,13 @@
 # Live portfolio hosting
 
+Live service: https://acquisition-financing-simulator.onrender.com/
+
+Deployed and verified on 9 October 2026 using the Free web service plan. The
+existing service was created through the public Git repository form with the
+same settings as `render.yaml`; it is not managed by a Blueprint. Avoid creating a
+second service when updating this deployment. The Render settings show the `main`
+branch and On Commit auto-deploy; manual deployment is also available in Render.
+
 ## Render setup
 
 Connect this GitHub repository through Render's **New → Blueprint** flow and use
@@ -13,6 +21,11 @@ Render supplies `PORT`, and the listener binds to `0.0.0.0`. The service starts 
 synthetic mode. `/healthz` checks HTTP availability without running the financial
 model; it is not a claim that historical evidence is complete. Smoke-test the
 actual calculation endpoints after every deployment.
+
+Run `python scripts/smoke_hosting.py https://acquisition-financing-simulator.onrender.com`
+to check the public endpoint, or `python scripts/smoke_hosting.py --local` to start,
+test and stop a local Waitress server. Run smoke tests while no other visitor is
+recalculating; a busy 503 response is an intentional capacity limit, not a saved result.
 
 Local startup still works with `python -m financing data/historical.json --demo
 --serve 8765` on `127.0.0.1`. Install `.[web]` to use the same Waitress server

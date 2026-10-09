@@ -1,5 +1,14 @@
 # Verification record - 20 September 2026
 
+## Render hosting — 9 October 2026
+
+- Deployed the existing dashboard at https://acquisition-financing-simulator.onrender.com/ on Render Free, Python 3.12.12 and Waitress 3.0.2. Source deployment: `c3dcf1e85229762fc4309be3e77a5c5bb3b13f07`.
+- GitHub Actions run `38000963747` passed 81 tests (one optional Node exporter test skipped), production-server HTTP smoke tests, export/pipeline checks and evidence-gate checks on Ubuntu / Python 3.11. Local full suite passed 80 tests before the additional port-selection test, which also passed in the seven-test hosting suite.
+- Public HTTPS smoke tests passed: default synthetic dashboard; changed cash reserve and quarterly calculation; independent subsequent request; conditional public assumptions; strict block in every mode; public and strict HTML pages; invalid input and unexposed-file rejection. Health responded in 0.33 seconds while calculation work was active.
+- Browser inspection confirmed the redesigned page and working navigation. Invalid cash reserve displayed the validation message without clearing stale-state protection. An initial concurrent smoke request received the expected busy 503; rerunning after the browser's initial calculation completed passed.
+- Each request uses an isolated process with a 120-second termination limit, one active calculation, finite bounded inputs and no shared output/database writes. Web history is not persisted. CLI Excel/PDF/SQLite features remain available locally. Free cold starts and limited concurrent calculation are documented.
+- No financial or evidence logic was changed. A deployed application does not establish historical completeness or executable financing capacity.
+
 Engineering is complete within the documented educational scope. Historical clearance is incomplete and the strict evidence gate remains blocked. The project was published to GitHub on 9 October 2026. See the publication record below; earlier verification entries describe their status at the time.
 
 ## Local checks performed
