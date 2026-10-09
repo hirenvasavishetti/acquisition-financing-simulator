@@ -1,0 +1,12 @@
+{
+  "note": "Hand calculation: cash uses 1000+20=1020; cash contribution 500-200=300; new debt 720. Year 1 interest 100*4%+720*6%=47.2; repayment 150-47.2=102.8; ending debt 100+720-102.8=717.2. Anonymous synthetic values.",
+  "cash_uses": 1020,
+  "cash_contribution": 300,
+  "new_borrowing": 720,
+  "opening_cash": 200,
+  "opening_debt": 820,
+  "interest": 47.2,
+  "repayment": 102.8,
+  "closing_cash": 200,
+  "closing_debt": 717.2
+}

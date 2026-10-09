@@ -1,0 +1,30 @@
+name: simulator-and-evidence
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install ".[exports,test]"
+      - run: python -m unittest discover -s tests -v
+      - run: python -m financing data/historical.json --demo --output generated --excel --pdf > generated-cli.json
+      - run: python scripts/verify_pipeline.py generated data/historical.json
+      - run: python -m pip check
+      - name: Conditional public-information exports preserve strict block
+        shell: bash
+        run: |
+          set +e
+          python -m financing data/historical.json --public-information --output public-generated --database public-generated/model.sqlite --excel --pdf > public-cli.json
+          result=$?
+          test "$result" -eq 2 || exit 1
+          python scripts/verify_public.py public-generated
+      - name: Missing historical evidence must return blocked exit code
+        shell: bash
+        run: |
+          set +e
+          python -m financing data/historical.json --illustrative-inputs data/illustrative.json --output generated
+          result=$?
+          test "$result" -eq 2

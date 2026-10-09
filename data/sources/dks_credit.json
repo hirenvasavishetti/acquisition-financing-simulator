@@ -1,0 +1,26 @@
+{
+  "archive_type": "reviewed factual extraction, not original document bytes",
+  "url": "https://www.sec.gov/Archives/edgar/data/1089063/000119312522009887/d285529dex101.htm",
+  "published": "2022-01-14",
+  "document_id": "DKS credit agreement",
+  "reviewed_on": "2026-09-14",
+  "facts": [
+    {
+      "key": "detail.acquirer.covenant",
+      "value": {
+        "maximum_lease_adjusted_leverage": 3.75,
+        "acquisition_elected_limit": 4.25,
+        "election_full_quarters": 4,
+        "definition": "Borrowed debt plus operating lease liabilities / contractual EBITDAR; variable rental costs excluded from rental addback"
+      },
+      "kind": "fact",
+      "origin": "reported",
+      "company": "acquirer",
+      "units": "multiples and contractual terms",
+      "period_start": "2022-01-14",
+      "period_end": "2022-01-14",
+      "extraction_method": "Machine-assisted primary-document review: Definitions and Section 6.12; election is conditional, not automatic",
+      "section": "Definitions and Section 6.12; election is conditional, not automatic"
+    }
+  ]
+}

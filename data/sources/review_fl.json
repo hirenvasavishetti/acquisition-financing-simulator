@@ -1,0 +1,126 @@
+{
+  "archive_type": "reviewed factual extraction, not original document bytes",
+  "url": "https://www.sec.gov/Archives/edgar/data/850209/000143774925009620/floc20241213_10k.htm",
+  "published": "2025-03-27",
+  "document_id": "FL FY2024 10-K",
+  "reviewed_on": "2026-09-14",
+  "facts": [
+    {
+      "key": "target.FY2024.receivables",
+      "value": 156.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2025-02-01",
+      "period_end": "2025-02-01",
+      "extraction_method": "Machine-assisted primary-document review: Note 8, p54: net receivables",
+      "section": "Note 8, p54: net receivables"
+    },
+    {
+      "key": "target.FY2023.receivables",
+      "value": 160.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2024-02-03",
+      "period_end": "2024-02-03",
+      "extraction_method": "Machine-assisted primary-document review: Note 8, p54: comparative net receivables",
+      "section": "Note 8, p54: comparative net receivables"
+    },
+    {
+      "key": "target.debt.revolver_commitments",
+      "value": {
+        "commitment": 600.0,
+        "drawn": 0.0,
+        "maturity_date": "2029-06-20",
+        "uncommitted_total_ceiling_excluded": 750.0
+      },
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2025-02-01",
+      "period_end": "2025-02-01",
+      "extraction_method": "Machine-assisted primary-document review: Note 13, p57; availability subject to borrowing base",
+      "section": "Note 13, p57; availability subject to borrowing base"
+    },
+    {
+      "key": "detail.target.cash",
+      "value": 401.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2025-02-01",
+      "period_end": "2025-02-01",
+      "extraction_method": "Machine-assisted primary-document review: Balance sheet p36; excludes separately classified restricted cash",
+      "section": "Balance sheet p36; excludes separately classified restricted cash"
+    },
+    {
+      "key": "detail.target.restricted_cash",
+      "value": {
+        "current": 4.0,
+        "noncurrent": 25.0,
+        "cash_flow_total": 430.0
+      },
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2025-02-01",
+      "period_end": "2025-02-01",
+      "extraction_method": "Machine-assisted primary-document review: Note 1 pp43-44; primarily lease escrow and insurance cash trust",
+      "section": "Note 1 pp43-44; primarily lease escrow and insurance cash trust"
+    },
+    {
+      "key": "detail.target.notes_principal",
+      "value": 400.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2025-02-01",
+      "period_end": "2025-02-01",
+      "extraction_method": "Machine-assisted primary-document review: Note 13 p57: 4% notes; carrying 396 plus unamortized discount/costs 4",
+      "section": "Note 13 p57: 4% notes; carrying 396 plus unamortized discount/costs 4"
+    },
+    {
+      "key": "detail.target.finance_lease",
+      "value": 50.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2025-02-01",
+      "period_end": "2025-02-01",
+      "extraction_method": "Machine-assisted primary-document review: Notes 13 and 16: finance lease liability current 5 plus long-term 45; exclude operating leases",
+      "section": "Notes 13 and 16: finance lease liability current 5 plus long-term 45; exclude operating leases"
+    },
+    {
+      "key": "detail.target.leases",
+      "value": {
+        "operating_cost": 643.0,
+        "variable": 272.0,
+        "short_term": 16.0,
+        "fixed_cash": 723.0,
+        "liability_ex_hfs": 2338.0,
+        "hfs_liability": 5.0,
+        "finance_cash": 8.0,
+        "finance_interest": 2.0,
+        "finance_opening": 52.0,
+        "finance_additions": 4.0,
+        "uncommenced_commitments": 41.0
+      },
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2025-02-01",
+      "period_end": "2025-02-01",
+      "extraction_method": "Machine-assisted primary-document review: Note 16 pp58-60; liabilities held for sale separately reported",
+      "section": "Note 16 pp58-60; liabilities held for sale separately reported"
+    }
+  ]
+}

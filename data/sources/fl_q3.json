@@ -1,0 +1,24 @@
+{
+  "archive_type": "reviewed factual extraction, not original document bytes",
+  "url": "https://www.sec.gov/Archives/edgar/data/850209/000143774924037241/floc20241102_10q.htm",
+  "published": "2024-12-11",
+  "document_id": "FL Q3 2024 10-Q",
+  "reviewed_on": "2026-09-14",
+  "facts": [
+    {
+      "key": "detail.target.ytd_cash_flow",
+      "value": {
+        "cfo": 98.0,
+        "capex": 185.0
+      },
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2024-02-04",
+      "period_end": "2024-11-02",
+      "extraction_method": "Machine-assisted primary-document review: Cash flows and liquidity free-cash-flow reconciliation",
+      "section": "Cash flows and liquidity free-cash-flow reconciliation"
+    }
+  ]
+}

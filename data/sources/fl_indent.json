@@ -1,0 +1,29 @@
+{
+  "archive_type": "reviewed factual extraction, not original document bytes",
+  "url": "https://www.sec.gov/Archives/edgar/data/850209/000153949721001514/exh4-1_indenture.htm",
+  "published": "2021-10-05",
+  "document_id": "FL 2029 notes indenture",
+  "reviewed_on": "2026-09-14",
+  "facts": [
+    {
+      "key": "detail.target.notes_terms",
+      "value": {
+        "coupon": 0.04,
+        "maturity": "2029-10-01",
+        "redemption_oct2024": 1.02,
+        "redemption_oct2025": 1.01,
+        "redemption_oct2026": 1.0,
+        "coc_offer": 1.01,
+        "trigger": "Change of control AND ratings event; not signing alone"
+      },
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "fractions and contractual terms",
+      "period_start": "2021-10-05",
+      "period_end": "2021-10-05",
+      "extraction_method": "Machine-assisted primary-document review: Definitions, Sections 3.07 and 4.10; note form",
+      "section": "Definitions, Sections 3.07 and 4.10; note form"
+    }
+  ]
+}

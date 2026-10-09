@@ -1,0 +1,24 @@
+{
+  "url": "https://www.sec.gov/Archives/edgar/data/1089063/000108906324000121/dks-20241102.htm",
+  "published": "2024-11-27",
+  "reviewed_on": "2026-09-19",
+  "archive_type": "reviewed factual extraction, not original document bytes",
+  "facts": [
+    {
+      "key": "detail.acquirer.ytd_wc_cash",
+      "value": {
+        "inventory": -877.115,
+        "receivables": -25.055,
+        "payables": 404.685
+      },
+      "kind": "fact",
+      "origin": "reported",
+      "company": "acquirer",
+      "units": "USD millions",
+      "period_start": "2024-02-04",
+      "period_end": "2024-11-02",
+      "section": "39-week cash flow statement p8: signed CFO contributions; thousands converted to USD millions.",
+      "extraction_method": "Machine-assisted primary filing spot check; no independent human review"
+    }
+  ]
+}

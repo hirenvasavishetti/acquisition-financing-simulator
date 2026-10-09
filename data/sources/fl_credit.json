@@ -1,0 +1,26 @@
+{
+  "archive_type": "reviewed factual extraction, not original document bytes",
+  "url": "https://www.sec.gov/Archives/edgar/data/850209/000143774924021177/ex_691205.htm",
+  "published": "2024-06-25",
+  "document_id": "FL amendment 4, executed June 20, 2024",
+  "reviewed_on": "2026-09-14",
+  "facts": [
+    {
+      "key": "detail.target.abl",
+      "value": {
+        "loan_cap": "Minimum of commitment and borrowing base",
+        "springing_fccr": 1.0,
+        "coc_voting_threshold": 0.4,
+        "restriction": "Covenant Compliance Period trigger; restricted payments and collateral eligibility require full contract compliance"
+      },
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "multiples, fractions and contractual terms",
+      "period_start": "2024-06-20",
+      "period_end": "2024-06-20",
+      "extraction_method": "Machine-assisted primary-document review: Definitions; Sections 7.06, financial covenant and 8.01(k); amendment annex",
+      "section": "Definitions; Sections 7.06, financial covenant and 8.01(k); amendment annex"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "closing_date": "2025-11-01",
+  "cash_access": 0.75,
+  "operating_cash_access": 1.0,
+  "bridge_cfo_factors": [
+    1.0,
+    0.5
+  ],
+  "gross_annual_capex": [
+    1200.0,
+    300.0
+  ],
+  "cash_floor": 750.0,
+  "max_leverage": 3.0,
+  "min_coverage": 4.0,
+  "tax_rate": 0.27,
+  "benchmark": 0.045,
+  "spread": 0.025,
+  "fee": 0.02,
+  "transaction_fees": 75.0,
+  "award_fraction": 1.0,
+  "dividend_factor": 1.0,
+  "extra_abl_payoff": 0.0,
+  "other_liability_reserve": 0.0,
+  "purchase_commitment_reserve": 0.0,
+  "lease_rate": 0.044,
+  "lease_tail_cash": 4.0,
+  "growth": [
+    [
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02
+    ],
+    [
+      -0.05,
+      0.0,
+      0.02,
+      0.02,
+      0.02
+    ]
+  ],
+  "margin_shock": 0.0,
+  "synergy": 100.0,
+  "integration_multiplier": 1.0,
+  "refinance": false,
+  "variable_cost_share": [
+    0.8,
+    0.8
+  ],
+  "closing_inventory_multiplier": [
+    1.18,
+    1.15
+  ],
+  "closing_receivables_multiplier": [
+    1.05,
+    1.0
+  ],
+  "closing_payables_multiplier": [
+    1.15,
+    1.15
+  ],
+  "fee_convention": "issued_debt",
+  "maintenance_capex": [
+    800.0,
+    240.0
+  ],
+  "linked_growth_penalty": [
+    0.01,
+    0.02
+  ],
+  "lc_collateral_factor": 1.05,
+  "fixed_cost_growth": 0.02,
+  "new_debt_maturity": 5.0,
+  "new_debt_amortisation": 0.02,
+  "refinance_limit": 2000.0,
+  "refinance_tenor": 5.0,
+  "synergy_ramp": [
+    0,
+    0.5,
+    1,
+    1,
+    1
+  ],
+  "integration_costs": [
+    100,
+    50,
+    25,
+    0,
+    0
+  ],
+  "reference_share_price": 200.0,
+  "mixed_stock_fraction": 0.5
+}

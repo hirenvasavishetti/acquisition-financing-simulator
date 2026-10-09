@@ -1,0 +1,40 @@
+{
+  "archive_type": "reviewed factual extraction, not original document bytes",
+  "url": "https://www.sec.gov/Archives/edgar/data/1089063/000119312522009887/d285529dex42.htm",
+  "published": "2022-01-14",
+  "document_id": "DKS first supplemental indenture",
+  "reviewed_on": "2026-09-14",
+  "facts": [
+    {
+      "key": "detail.acquirer.notes",
+      "value": {
+        "principal_each": 750.0,
+        "coupons": [
+          0.0315,
+          0.041
+        ],
+        "maturities": [
+          "2032-01-15",
+          "2052-01-15"
+        ],
+        "day_count": "30/360",
+        "payment_months": [
+          1,
+          7
+        ],
+        "makewhole_spreads_bps": [
+          25,
+          30
+        ]
+      },
+      "kind": "fact",
+      "origin": "reported",
+      "company": "acquirer",
+      "units": "USD millions; fractional annual coupons; dates",
+      "period_start": "2022-01-14",
+      "period_end": "2022-01-14",
+      "extraction_method": "Machine-assisted primary-document review: Sections 2.2-2.3; principal issuance corroborated by FY2024 Note 9",
+      "section": "Sections 2.2-2.3; principal issuance corroborated by FY2024 Note 9"
+    }
+  ]
+}

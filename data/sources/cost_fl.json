@@ -1,0 +1,29 @@
+{
+  "url": "https://www.sec.gov/Archives/edgar/data/850209/000143774925009620/floc20241213_10k.htm",
+  "published": "2025-03-27",
+  "reviewed_on": "2026-09-19",
+  "archive_type": "reviewed factual extraction, not original document bytes",
+  "facts": [
+    {
+      "key": "detail.target.cost_classification",
+      "value": {
+        "revenue": 7988.0,
+        "cost_of_sales": 5666.0,
+        "sga": 1920.0,
+        "separate_da": 202.0,
+        "other_operating": 97.0,
+        "operating_profit": 103.0,
+        "merchandise_cost": 4674.0,
+        "occupancy_buyers": 992.0
+      },
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2024-02-04",
+      "period_end": "2025-02-01",
+      "section": "FY2024 operations p36; MD&A p26; Note 16: store lease costs in cost of sales, non-store in SG&A. No impairment add-back.",
+      "extraction_method": "Machine-assisted primary filing spot check; no independent human review"
+    }
+  ]
+}

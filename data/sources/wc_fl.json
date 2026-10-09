@@ -1,0 +1,23 @@
+{
+  "url": "https://www.sec.gov/Archives/edgar/data/850209/000143774924037241/floc20241102_10q.htm",
+  "published": "2024-12-11",
+  "reviewed_on": "2026-09-19",
+  "archive_type": "reviewed factual extraction, not original document bytes",
+  "facts": [
+    {
+      "key": "detail.target.ytd_wc_cash",
+      "value": {
+        "inventory": -243.0,
+        "payables": 137.0
+      },
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2024-02-04",
+      "period_end": "2024-11-02",
+      "section": "39-week cash flow statement p5: signed CFO contributions. Receivables are not separately disclosed; retain other cash-flow proxy and hold closing AR constant.",
+      "extraction_method": "Machine-assisted primary filing spot check; no independent human review"
+    }
+  ]
+}

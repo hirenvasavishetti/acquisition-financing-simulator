@@ -1,0 +1,12 @@
+{
+  "label": "Anonymous synthetic companies; not DICK'S or Foot Locker historical inputs",
+  "purchase": 1000,
+  "fees": 20,
+  "cash": 500,
+  "reserve": 200,
+  "existing_debt": 100,
+  "existing_coupon": 0.04,
+  "new_rate": 0.06,
+  "ebitda": 300,
+  "pre_interest_cash_flow": 150
+}

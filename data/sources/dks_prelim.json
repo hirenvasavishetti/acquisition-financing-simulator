@@ -1,0 +1,25 @@
+{
+  "archive_type": "reviewed factual extraction, not original document bytes",
+  "url": "https://www.sec.gov/Archives/edgar/data/1089063/000119312525120243/d830209dex991.htm",
+  "published": "2025-05-15",
+  "document_id": "DKS preliminary Q1 2025 release",
+  "reviewed_on": "2026-09-14",
+  "facts": [
+    {
+      "key": "detail.acquirer.preliminary_q1",
+      "value": {
+        "comparable_sales_growth": 0.045,
+        "expected_eps": 3.24,
+        "expected_non_gaap_eps": 3.37
+      },
+      "kind": "fact",
+      "origin": "reported",
+      "company": "acquirer",
+      "units": "fraction and USD/share",
+      "period_start": "2025-02-02",
+      "period_end": "2025-05-03",
+      "extraction_method": "Machine-assisted primary-document review: Preliminary First Quarter Results; full results scheduled May 28, after cutoff",
+      "section": "Preliminary First Quarter Results; full results scheduled May 28, after cutoff"
+    }
+  ]
+}

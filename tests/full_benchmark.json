@@ -1,0 +1,14 @@
+{
+  "method": "Independent hand calculation. Combined sales 1000; COGS 600, variable costs 100, fixed 80 and rent 20: EBITDA 200. No taxes/capex/NWC. Purchase 500 plus fees 10; acquirer cash 300 less reserve 100 contributes 200. Borrow 310. Retain two 100 notes. Interest 100*4%+100*5%+310*6%=27.6. Mandatory repayments 10+31=41. Surplus after interest and mandatory repayment is 131.4, optionally repaid. End debt 510-41-131.4=337.6; end cash 100.",
+  "cash_uses": 510,
+  "cash_contribution": 200,
+  "total_new_borrowing": 310,
+  "opening_debt": 510,
+  "opening_cash": 100,
+  "ebitda": 200,
+  "interest": 27.6,
+  "mandatory_paid": 41,
+  "optional_paid": 131.4,
+  "closing_debt": 337.6,
+  "closing_cash": 100
+}

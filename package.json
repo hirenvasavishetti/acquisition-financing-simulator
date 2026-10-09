@@ -1,0 +1,6 @@
+{
+  "name": "acquisition-financing-simulator-workbook",
+  "private": true,
+  "type": "module",
+  "dependencies": {"@oai/artifact-tool": "2.8.58"}
+}

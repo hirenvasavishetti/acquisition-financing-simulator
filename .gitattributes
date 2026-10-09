@@ -1,0 +1,5 @@
+# Preserve exact source-extract bytes: evidence integrity uses SHA256 hashes.
+* -text
+*.pdf binary
+*.png binary
+*.xlsx binary

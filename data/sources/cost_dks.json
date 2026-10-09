@@ -1,0 +1,26 @@
+{
+  "url": "https://www.sec.gov/Archives/edgar/data/1089063/000108906325000012/dks-20250201.htm",
+  "published": "2025-03-27",
+  "reviewed_on": "2026-09-19",
+  "archive_type": "reviewed factual extraction, not original document bytes",
+  "facts": [
+    {
+      "key": "detail.acquirer.cost_classification",
+      "value": {
+        "revenue": 13442.849,
+        "cost_of_sales": 8617.153,
+        "sga": 3294.272,
+        "other_operating": 57.492,
+        "operating_profit": 1473.932
+      },
+      "kind": "fact",
+      "origin": "reported",
+      "company": "acquirer",
+      "units": "USD millions",
+      "period_start": "2024-02-04",
+      "period_end": "2025-02-01",
+      "section": "FY2024 income statement p46; MD&A p32 and Note 1 p55: cost of sales includes occupancy and depreciation; not all variable.",
+      "extraction_method": "Machine-assisted primary filing spot check; no independent human review"
+    }
+  ]
+}

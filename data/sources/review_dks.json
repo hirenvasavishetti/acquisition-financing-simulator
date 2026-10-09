@@ -1,0 +1,101 @@
+{
+  "archive_type": "reviewed factual extraction, not original document bytes",
+  "url": "https://www.sec.gov/Archives/edgar/data/1089063/000108906325000012/dks-20250201.htm",
+  "published": "2025-03-27",
+  "document_id": "DKS FY2024 10-K",
+  "reviewed_on": "2026-09-14",
+  "facts": [
+    {
+      "key": "acquirer.debt.revolver_commitments",
+      "value": {
+        "commitment": 1600.0,
+        "drawn": 0.0,
+        "maturity_date": "2027-01-14",
+        "uncommitted_incremental_excluded": 500.0
+      },
+      "kind": "fact",
+      "origin": "reported",
+      "company": "acquirer",
+      "units": "USD millions",
+      "period_start": "2025-02-01",
+      "period_end": "2025-02-01",
+      "extraction_method": "Machine-assisted primary-document review: Note 9, p62; commitment is not unconditional borrowing availability",
+      "section": "Note 9, p62; commitment is not unconditional borrowing availability"
+    },
+    {
+      "key": "acquirer.debt.borrowing_base_and_letters_of_credit",
+      "value": {
+        "borrowing_base": 1600.0,
+        "letters_of_credit": 19.9,
+        "basis": "Unsecured commitment ceiling, subject to covenants; not an inventory borrowing base"
+      },
+      "kind": "fact",
+      "origin": "reported",
+      "company": "acquirer",
+      "units": "USD millions",
+      "period_start": "2025-02-01",
+      "period_end": "2025-02-01",
+      "extraction_method": "Machine-assisted primary-document review: Note 9, p62",
+      "section": "Note 9, p62"
+    },
+    {
+      "key": "detail.acquirer.cash",
+      "value": 1689.94,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "acquirer",
+      "units": "USD millions",
+      "period_start": "2025-02-01",
+      "period_end": "2025-02-01",
+      "extraction_method": "Machine-assisted primary-document review: Balance sheet p48, Note 1: cash and equivalents, NOT verified spendable acquisition cash",
+      "section": "Balance sheet p48, Note 1: cash and equivalents, NOT verified spendable acquisition cash"
+    },
+    {
+      "key": "detail.acquirer.notes_outstanding",
+      "value": [
+        750.0,
+        750.0
+      ],
+      "kind": "fact",
+      "origin": "reported",
+      "company": "acquirer",
+      "units": "USD millions",
+      "period_start": "2025-02-01",
+      "period_end": "2025-02-01",
+      "extraction_method": "Machine-assisted primary-document review: Note 9: principal of 2032 and 2052 series at fiscal year-end",
+      "section": "Note 9: principal of 2032 and 2052 series at fiscal year-end"
+    },
+    {
+      "key": "detail.acquirer.purchase_commitments",
+      "value": 180.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "acquirer",
+      "units": "USD millions",
+      "period_start": "2025-02-01",
+      "period_end": "2025-02-01",
+      "extraction_method": "Machine-assisted primary-document review: MD&A p36 Contractual Obligations: approximate non-cancellable purchase commitments",
+      "section": "MD&A p36 Contractual Obligations: approximate non-cancellable purchase commitments"
+    },
+    {
+      "key": "detail.acquirer.leases",
+      "value": {
+        "operating_cost": 636.744,
+        "short_term": 26.186,
+        "variable": 131.832,
+        "sublease_income": 11.842,
+        "fixed_cash": 708.988,
+        "liability": 3003.543,
+        "uncommenced_commitments": 352.1
+      },
+      "kind": "fact",
+      "origin": "reported",
+      "company": "acquirer",
+      "units": "USD millions",
+      "period_start": "2025-02-01",
+      "period_end": "2025-02-01",
+      "extraction_method": "Machine-assisted primary-document review: Note 7 pp60-61; fixed liability cash excludes other rent categories",
+      "section": "Note 7 pp60-61; fixed liability cash excludes other rent categories"
+    }
+  ]
+}

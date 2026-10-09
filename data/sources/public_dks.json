@@ -1,0 +1,57 @@
+{
+  "archive_type": "reviewed factual extraction, not original document bytes",
+  "url": "https://www.sec.gov/Archives/edgar/data/1089063/000108906325000012/dks-20250201.htm",
+  "published": "2025-03-27",
+  "reviewed_on": "2026-09-15",
+  "facts": [
+    {
+      "key": "detail.acquirer.distributions",
+      "value": {
+        "dividends": 361.727,
+        "cash_buybacks": 263.021,
+        "accrued_buybacks": 5.0
+      },
+      "kind": "fact",
+      "origin": "reported",
+      "company": "acquirer",
+      "units": "USD millions",
+      "period_start": "2024-02-04",
+      "period_end": "2025-02-01",
+      "extraction_method": "Machine-assisted review of primary filing: FY2024 cash flows p50 and supplemental noncash information",
+      "section": "FY2024 cash flows p50 and supplemental noncash information"
+    },
+    {
+      "key": "detail.acquirer.other_liabilities",
+      "value": {
+        "accrued_expenses": 653.324,
+        "current_other": 82.696,
+        "long_term_other": 42.137
+      },
+      "kind": "fact",
+      "origin": "reported",
+      "company": "acquirer",
+      "units": "USD millions",
+      "period_start": "2025-02-01",
+      "period_end": "2025-02-01",
+      "extraction_method": "Machine-assisted review of primary filing: Balance sheet p48 and Deferred revenue and other liabilities table; excludes gift cards, loyalty and deferred compensation",
+      "section": "Balance sheet p48 and Deferred revenue and other liabilities table; excludes gift cards, loyalty and deferred compensation"
+    },
+    {
+      "key": "detail.acquirer.planning_disclosures",
+      "value": {
+        "fy2025_net_capex_guidance": 1000.0,
+        "declared_quarterly_dividend_per_share": 1.2125,
+        "declaration_date": "2025-03-10",
+        "payment_date": "2025-04-11"
+      },
+      "kind": "fact",
+      "origin": "reported",
+      "company": "acquirer",
+      "units": "USD millions; dividend USD/share; dates ISO 8601",
+      "period_start": "2025-03-27",
+      "period_end": "2025-03-27",
+      "extraction_method": "Machine-assisted review of primary filing: MD&A pp34-35 Capital Expenditures and Dividends; net capex is management guidance, dividend is a declaration",
+      "section": "MD&A pp34-35 Capital Expenditures and Dividends; net capex is management guidance, dividend is a declaration"
+    }
+  ]
+}

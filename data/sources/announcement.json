@@ -1,0 +1,79 @@
+{
+  "archive_type": "reviewed factual extraction, not original document bytes",
+  "url": "https://www.sec.gov/Archives/edgar/data/1089063/000119312525120243/d830209dex992.htm",
+  "published": "2025-05-15",
+  "document_id": "0001193125-25-120243 Exhibit 99.2",
+  "section": "Additional Transaction Details; operating efficiencies",
+  "reviewed_on": "2026-09-14",
+  "facts": [
+    {
+      "key": "transaction.cash_price",
+      "value": 24.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "transaction",
+      "units": "USD per share",
+      "period_start": "2025-05-15",
+      "period_end": "2025-05-15",
+      "extraction_method": "Reviewed numerical browser extraction; Reported financial statement amount"
+    },
+    {
+      "key": "transaction.exchange_ratio",
+      "value": 0.1168,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "transaction",
+      "units": "acquirer shares per target share",
+      "period_start": "2025-05-15",
+      "period_end": "2025-05-15",
+      "extraction_method": "Reviewed numerical browser extraction; Reported financial statement amount"
+    },
+    {
+      "key": "transaction.equity_value",
+      "value": 2400.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "transaction",
+      "units": "USD millions, approximate",
+      "period_start": "2025-05-15",
+      "period_end": "2025-05-15",
+      "extraction_method": "Reviewed numerical browser extraction; Reported financial statement amount"
+    },
+    {
+      "key": "transaction.enterprise_value",
+      "value": 2500.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "transaction",
+      "units": "USD millions, approximate",
+      "period_start": "2025-05-15",
+      "period_end": "2025-05-15",
+      "extraction_method": "Reviewed numerical browser extraction; Reported financial statement amount"
+    },
+    {
+      "key": "transaction.synergy_guidance",
+      "value": [
+        100.0,
+        125.0
+      ],
+      "kind": "fact",
+      "origin": "management_guidance",
+      "company": "transaction",
+      "units": "USD millions, medium-term management guidance",
+      "period_start": "2025-05-15",
+      "period_end": "2025-05-15",
+      "extraction_method": "Reviewed numerical browser extraction; Reported financial statement amount"
+    },
+    {
+      "key": "transaction.election_restrictions",
+      "value": "No minimum or maximum cash/stock election amount",
+      "kind": "fact",
+      "origin": "reported",
+      "company": "transaction",
+      "units": "contractual announcement term",
+      "period_start": "2025-05-15",
+      "period_end": "2025-05-15",
+      "extraction_method": "Reviewed numerical browser extraction; Reported financial statement amount"
+    }
+  ]
+}

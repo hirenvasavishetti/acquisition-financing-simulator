@@ -1,0 +1,48 @@
+{
+  "archive_type": "reviewed factual extraction, not original document bytes",
+  "url": "https://www.sec.gov/Archives/edgar/data/850209/000110465925049592/tm2515123d3_ex2-1.htm",
+  "published": "2025-05-15",
+  "document_id": "May 15 merger agreement, Exhibit 2.1; SEC acceptance 17:16:25",
+  "reviewed_on": "2026-09-14",
+  "facts": [
+    {
+      "key": "detail.transaction.capitalization",
+      "value": {
+        "target_common": 95560582,
+        "target_treasury_excluded": 312977,
+        "options": 1731169,
+        "weighted_option_strike": 48.12,
+        "rsus": 2635903,
+        "psus_target": 1443467,
+        "psus_max": 2749910,
+        "dsus": 177680.622,
+        "acquirer_common": 56475378,
+        "acquirer_class_b": 23570633
+      },
+      "kind": "fact",
+      "origin": "reported",
+      "company": "transaction",
+      "units": "shares; option strike USD/share",
+      "period_start": "2025-05-12",
+      "period_end": "2025-05-12",
+      "extraction_method": "Machine-assisted primary-document review: Sections 4.2 and 5.2, capitalization date May 12; section 3.4 distinguishes award settlement",
+      "section": "Sections 4.2 and 5.2, capitalization date May 12; section 3.4 distinguishes award settlement"
+    },
+    {
+      "key": "detail.transaction.debt_treatment",
+      "value": {
+        "target_abl": "Terminate commitments, repay obligations and release liens at effective time; parent funds required",
+        "notes": "Offers, consent solicitations, redemption or assumption routes; future outcome not established",
+        "award_rule": "ITM options and DSUs cash; employee RSUs/PSUs adjusted parent awards; director RSUs cash"
+      },
+      "kind": "fact",
+      "origin": "reported",
+      "company": "transaction",
+      "units": "contractual terms",
+      "period_start": "2025-05-15",
+      "period_end": "2025-05-15",
+      "extraction_method": "Machine-assisted primary-document review: Sections 3.4 and 7.16(a)-(b); payoff letter due at least one business day before closing",
+      "section": "Sections 3.4 and 7.16(a)-(b); payoff letter due at least one business day before closing"
+    }
+  ]
+}

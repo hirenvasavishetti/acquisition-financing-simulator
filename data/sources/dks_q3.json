@@ -1,0 +1,24 @@
+{
+  "archive_type": "reviewed factual extraction, not original document bytes",
+  "url": "https://www.sec.gov/Archives/edgar/data/1089063/000108906324000121/dks-20241102.htm",
+  "published": "2024-11-27",
+  "document_id": "DKS Q3 2024 10-Q",
+  "reviewed_on": "2026-09-14",
+  "facts": [
+    {
+      "key": "detail.acquirer.ytd_cash_flow",
+      "value": {
+        "cfo": 680.307,
+        "capex": 565.569
+      },
+      "kind": "fact",
+      "origin": "reported",
+      "company": "acquirer",
+      "units": "USD millions",
+      "period_start": "2024-02-04",
+      "period_end": "2024-11-02",
+      "extraction_method": "Machine-assisted primary-document review: Consolidated cash flows p7; thousands converted to millions",
+      "section": "Consolidated cash flows p7; thousands converted to millions"
+    }
+  ]
+}

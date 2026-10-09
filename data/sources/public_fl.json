@@ -1,0 +1,45 @@
+{
+  "archive_type": "reviewed factual extraction, not original document bytes",
+  "url": "https://www.sec.gov/Archives/edgar/data/850209/000143774925009620/floc20241213_10k.htm",
+  "published": "2025-03-27",
+  "reviewed_on": "2026-09-15",
+  "facts": [
+    {
+      "key": "detail.target.finance_maturities",
+      "value": {
+        "annual_cash": [
+          7.0,
+          6.0,
+          5.0,
+          4.0,
+          4.0
+        ],
+        "thereafter_cash": 40.0,
+        "total_cash": 66.0,
+        "unearned_interest": 16.0,
+        "liability": 50.0,
+        "weighted_discount_rate": 0.044
+      },
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions; weighted discount rate fraction",
+      "period_start": "2025-02-01",
+      "period_end": "2025-02-01",
+      "extraction_method": "Machine-assisted review of primary filing: Note 16 pp59-60; FY2025-2029 and thereafter, not calendar years; discount rate is aggregate",
+      "section": "Note 16 pp59-60; FY2025-2029 and thereafter, not calendar years; discount rate is aggregate"
+    },
+    {
+      "key": "detail.target.letters_of_credit",
+      "value": 7.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2025-02-01",
+      "period_end": "2025-02-01",
+      "extraction_method": "Machine-assisted review of primary filing: Note 13 p57: outstanding letters of credit at February 1, 2025",
+      "section": "Note 13 p57: outstanding letters of credit at February 1, 2025"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+node_modules/
+generated/
+*.sqlite
+.env
+build/
+*.inspect.ndjson
+generated-cli.json
+historical-review/
+
+# Local working files and generated verification runs
+work/
+outputs/
+public-generated/
+public-cli.json

@@ -1,0 +1,263 @@
+{
+  "archive_type": "reviewed factual extraction, not original document bytes",
+  "url": "https://www.sec.gov/Archives/edgar/data/850209/000143774925009620/floc20241213_10k.htm",
+  "published": "2025-03-27",
+  "document_id": "0001437749-25-009620",
+  "section": "Statements pp.36,38,40; Notes 13,14",
+  "reviewed_on": "2026-09-14",
+  "facts": [
+    {
+      "key": "target.FY2024.revenue",
+      "value": 7988.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2024-02-04",
+      "period_end": "2025-02-01",
+      "extraction_method": "Reviewed numerical browser extraction; Total revenue including licensing"
+    },
+    {
+      "key": "target.FY2023.revenue",
+      "value": 8168.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2023-01-29",
+      "period_end": "2024-02-03",
+      "extraction_method": "Reviewed numerical browser extraction; Total revenue including licensing"
+    },
+    {
+      "key": "target.FY2022.revenue",
+      "value": 8759.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2022-01-30",
+      "period_end": "2023-01-28",
+      "extraction_method": "Reviewed numerical browser extraction; Total revenue including licensing"
+    },
+    {
+      "key": "target.FY2024.operating_profit",
+      "value": 103.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2024-02-04",
+      "period_end": "2025-02-01",
+      "extraction_method": "Reviewed numerical browser extraction; Statement amount; DKS thousands converted to millions"
+    },
+    {
+      "key": "target.FY2023.operating_profit",
+      "value": 142.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2023-01-29",
+      "period_end": "2024-02-03",
+      "extraction_method": "Reviewed numerical browser extraction; Statement amount; DKS thousands converted to millions"
+    },
+    {
+      "key": "target.FY2022.operating_profit",
+      "value": 581.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2022-01-30",
+      "period_end": "2023-01-28",
+      "extraction_method": "Reviewed numerical browser extraction; Statement amount; DKS thousands converted to millions"
+    },
+    {
+      "key": "target.FY2024.depreciation_amortisation",
+      "value": 202.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2024-02-04",
+      "period_end": "2025-02-01",
+      "extraction_method": "Reviewed numerical browser extraction; Cash-flow D&A line; DKS FY2022/23 includes disclosed impairments"
+    },
+    {
+      "key": "target.FY2023.depreciation_amortisation",
+      "value": 199.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2023-01-29",
+      "period_end": "2024-02-03",
+      "extraction_method": "Reviewed numerical browser extraction; Cash-flow D&A line; DKS FY2022/23 includes disclosed impairments"
+    },
+    {
+      "key": "target.FY2022.depreciation_amortisation",
+      "value": 208.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2022-01-30",
+      "period_end": "2023-01-28",
+      "extraction_method": "Reviewed numerical browser extraction; Cash-flow D&A line; DKS FY2022/23 includes disclosed impairments"
+    },
+    {
+      "key": "target.FY2024.operating_cash_flow",
+      "value": 345.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2024-02-04",
+      "period_end": "2025-02-01",
+      "extraction_method": "Reviewed numerical browser extraction; Statement amount; DKS thousands converted to millions"
+    },
+    {
+      "key": "target.FY2023.operating_cash_flow",
+      "value": 91.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2023-01-29",
+      "period_end": "2024-02-03",
+      "extraction_method": "Reviewed numerical browser extraction; Statement amount; DKS thousands converted to millions"
+    },
+    {
+      "key": "target.FY2022.operating_cash_flow",
+      "value": 173.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2022-01-30",
+      "period_end": "2023-01-28",
+      "extraction_method": "Reviewed numerical browser extraction; Statement amount; DKS thousands converted to millions"
+    },
+    {
+      "key": "target.FY2024.capex",
+      "value": 240.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2024-02-04",
+      "period_end": "2025-02-01",
+      "extraction_method": "Reviewed numerical browser extraction; Gross cash capital expenditures; positive outflow"
+    },
+    {
+      "key": "target.FY2023.capex",
+      "value": 242.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2023-01-29",
+      "period_end": "2024-02-03",
+      "extraction_method": "Reviewed numerical browser extraction; Gross cash capital expenditures; positive outflow"
+    },
+    {
+      "key": "target.FY2022.capex",
+      "value": 285.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2022-01-30",
+      "period_end": "2023-01-28",
+      "extraction_method": "Reviewed numerical browser extraction; Gross cash capital expenditures; positive outflow"
+    },
+    {
+      "key": "target.FY2024.taxes",
+      "value": 76.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2024-02-04",
+      "period_end": "2025-02-01",
+      "extraction_method": "Reviewed numerical browser extraction; Cash income taxes paid, not provision"
+    },
+    {
+      "key": "target.FY2023.taxes",
+      "value": 97.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2023-01-29",
+      "period_end": "2024-02-03",
+      "extraction_method": "Reviewed numerical browser extraction; Cash income taxes paid, not provision"
+    },
+    {
+      "key": "target.FY2022.taxes",
+      "value": 153.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2022-01-30",
+      "period_end": "2023-01-28",
+      "extraction_method": "Reviewed numerical browser extraction; Cash income taxes paid, not provision"
+    },
+    {
+      "key": "target.FY2024.inventory",
+      "value": 1525.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2025-02-01",
+      "period_end": "2025-02-01",
+      "extraction_method": "Reviewed numerical browser extraction; Reported financial statement amount"
+    },
+    {
+      "key": "target.FY2023.inventory",
+      "value": 1509.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2024-02-03",
+      "period_end": "2024-02-03",
+      "extraction_method": "Reviewed numerical browser extraction; Reported financial statement amount"
+    },
+    {
+      "key": "target.FY2024.payables",
+      "value": 378.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2025-02-01",
+      "period_end": "2025-02-01",
+      "extraction_method": "Reviewed numerical browser extraction; Reported financial statement amount"
+    },
+    {
+      "key": "target.FY2023.payables",
+      "value": 366.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2024-02-03",
+      "period_end": "2024-02-03",
+      "extraction_method": "Reviewed numerical browser extraction; Reported financial statement amount"
+    },
+    {
+      "key": "target.opening.debt_carrying_value",
+      "value": 446.0,
+      "kind": "fact",
+      "origin": "reported",
+      "company": "target",
+      "units": "USD millions",
+      "period_start": "2025-02-01",
+      "period_end": "2025-02-01",
+      "extraction_method": "Reviewed numerical browser extraction; DKS senior-note carrying amount; FL notes plus finance-lease carrying amount. Not principal."
+    }
+  ]
+}
