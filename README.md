@@ -1,6 +1,6 @@
 # Acquisition Financing & Debt Capacity Simulator
 
-How does paying for an acquisition with cash, borrowing or shares change liquidity, debt service and dilution? This Python project connects sources and uses, five-year operations, instrument-level debt and cash schedules, scenario analysis, debt capacity and reverse stress.
+How does paying for an acquisition with cash, borrowing or shares change liquidity, debt service and dilution? This lightweight Python project connects sources and uses, five-year operations, instrument-level debt and cash schedules, scenario analysis, debt capacity and reverse stress.
 
 The October dashboard redesign adds eight sidebar sections, live timing controls, a model-insight panel and JSON download. Saved scenario selection updates supporting schedules and charts; overview comparison cards stay on the base case.
 
@@ -14,6 +14,9 @@ Three clearly separated modes share the same calculation engine:
 | Strict actual-company recommendation | **Blocked — insufficient verified evidence.** | 23 material strict requirements remain unresolved; software operation is independent of this status. |
 
 ## Run it
+
+Hosting configuration and public-server limits are documented in [DEPLOYMENT.md](DEPLOYMENT.md).
+The repository includes a free-plan Render Blueprint. A live link will be added after deployment is verified.
 
 Python 3.11 or newer. Run these commands from this repository folder:
 

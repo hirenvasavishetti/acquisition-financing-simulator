@@ -1,9 +1,8 @@
 import argparse
-from http.server import BaseHTTPRequestHandler, HTTPServer
+import os
 import json
 from pathlib import Path
 import sys
-from urllib.parse import urlparse, parse_qs
 from .exports import dashboard, export_all
 from .report import build_report
 
@@ -128,10 +127,10 @@ def main(argv=None):
     )
     parser.add_argument("--output", type=Path)
     parser.add_argument("--excel", action="store_true")
-    parser.add_argument("--serve", type=int, metavar="PORT")
+    parser.add_argument("--serve", type=int, nargs="?", const=os.environ.get("PORT", "8765"), metavar="PORT")
+    parser.add_argument("--host", default="0.0.0.0" if os.environ.get("PORT") else "127.0.0.1")
     args = parser.parse_args(argv)
     if args.fetch_url or args.sec_facts:
-        import os
         from .ingestion import fetch, companyfacts_candidates
 
         url = (
@@ -172,92 +171,9 @@ def main(argv=None):
     if (args.excel or args.pdf) and args.output is None:
         parser.error("--excel and --pdf require --output")
     if args.serve is not None:
+        from .web import serve
 
-        class Handler(BaseHTTPRequestHandler):
-
-            def do_GET(self):
-                try:
-                    query = parse_qs(urlparse(self.path).query)
-                    mode = query.get(
-                        "mode",
-                        [
-                            (
-                                "public"
-                                if args.public_information
-                                else "synthetic" if args.demo else "strict"
-                            )
-                        ],
-                    )[0]
-                    if mode not in ("public", "synthetic", "strict"):
-                        raise ValueError("Unknown mode")
-                    overrides = (
-                        {
-                            k: float(query[k][0])
-                            for k in ("cash_floor", "max_leverage", "min_coverage")
-                            if k in query
-                        }
-                        if mode == "synthetic"
-                        else None
-                    )
-                    from .public_inputs import form_overrides
-
-                    public_choices = (
-                        read_case(args.public_assumptions)
-                        if args.public_assumptions
-                        else {}
-                    )
-                    if mode == "public":
-                        public_choices.update(form_overrides(query))
-                    frequency = int(query.get("frequency", [args.frequency])[0])
-                    if mode == "public" and frequency != 1:
-                        raise ValueError(
-                            "Historical quarterly inputs insufficient: public case supports annual timing only"
-                        )
-                    _, report = evaluate(
-                        args.case,
-                        args.illustrative_inputs,
-                        mode == "synthetic",
-                        args.database,
-                        not args.quick,
-                        overrides,
-                        mode == "public",
-                        public_choices,
-                        frequency,
-                        query.get("fee_convention", [args.fee_convention])[0],
-                    )
-                    is_api = urlparse(self.path).path == "/api/report"
-                    body = (
-                        json.dumps(report, ensure_ascii=False)
-                        if is_api
-                        else dashboard(report)
-                    ).encode("utf-8")
-                    self.send_response(200)
-                except (ValueError, KeyError, TypeError, OSError) as exc:
-                    from .policy import BLOCKED
-                    from html import escape
-
-                    body = (
-                        json.dumps(
-                            {"recommendation_status": BLOCKED, "error": str(exc)}
-                        )
-                        if urlparse(self.path).path == "/api/report"
-                        else f"<h1>{BLOCKED}</h1><p>Input validation failed: {escape(str(exc))}</p>"
-                    ).encode("utf-8")
-                    self.send_response(422)
-                self.send_header(
-                    "Content-Type",
-                    (
-                        "application/json; charset=utf-8"
-                        if urlparse(self.path).path == "/api/report"
-                        else "text/html; charset=utf-8"
-                    ),
-                )
-                self.send_header("Cache-Control", "no-store")
-                self.end_headers()
-                self.wfile.write(body)
-
-        print(f"Live evidence dashboard: http://127.0.0.1:{args.serve}", flush=True)
-        HTTPServer(("127.0.0.1", args.serve), Handler).serve_forever()
+        serve(args)
         return 0
     try:
         database = args.database or (

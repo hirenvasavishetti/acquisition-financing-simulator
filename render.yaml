@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: acquisition-financing-simulator
+    runtime: python
+    plan: free
+    buildCommand: pip install ".[web]"
+    startCommand: python -m financing data/historical.json --demo --host 0.0.0.0 --serve $PORT
+    healthCheckPath: /healthz
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.12
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: PYTHONDONTWRITEBYTECODE
+        value: "1"
