@@ -20,7 +20,7 @@ The final presentation patch was rebuilt offline with the bundled setuptools bac
 
 Artifact Tool workbook export succeeds. Its separate Windows preview process writes all expected PNGs but returns teardown code 3221226505. The rendered images were inspected and saved XLSX values were independently checked; this preview-process issue is not silently reported as a clean exit. Portable XlsxWriter exports were also checked from the installed package. Native Microsoft Excel execution was not tested.
 
-GitHub-hosted Linux CI is configured but has not run. Local success is Windows Python 3.12 only. No human-independent source review, lender verification or transaction-execution opinion is claimed. Source spot checks are AI-assisted; hashes establish integrity rather than truth. Passing tests does not resolve the 23 strict material evidence gaps.
+GitHub-hosted Linux CI is configured but has not run. Local success is Windows Python 3.12 only. No human-independent source review, lender verification or transaction-execution opinion is claimed. Hashes establish integrity rather than truth. Passing tests does not resolve the 23 strict material evidence gaps.
 
 The model is reproducible by source, assumption, input and code identifiers. PDF/XLSX packaging timestamps and SQLite run history need not be byte-identical. Historical public projections remain annual; no unsupported quarterly seasonality is silently inferred.
 

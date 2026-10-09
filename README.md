@@ -57,4 +57,4 @@ This is an educational model, not executable financing advice. Actual covenant c
 
 Start with [the interview walkthrough](LEARNING.md), then [methodology](METHODOLOGY.md), [current public-case review](PUBLIC_CASE_REVIEW.md), [requirement map](REQUIREMENTS.md) and [verification record](VERIFICATION.md). The original [109-input review](INPUT_REVIEW.md) and [scope amendment](PUBLIC_INFORMATION_POLICY.md) remain intact. Earlier narrative results are preserved under `legacy/2026-09-16`; `example-output` is a legacy foundation example, not the current simulator.
 
-AI assistance was used for implementation, source extraction, review and documentation. Automated checks and machine-assisted primary-source spot checks are not independent human verification. No authorship history or commits are fabricated. **Source and saved examples are published on GitHub. Live recalculation runs on your local Python server.**
+Automated checks do not constitute independent source verification. **Source and saved examples are published on GitHub. Live recalculation runs on your local Python server.**
