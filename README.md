@@ -2,8 +2,6 @@
 
 **[Try the live simulator](https://acquisition-financing-simulator.onrender.com/)**
 
-Free hosting may take about a minute to wake after inactivity. The browser exports JSON; Excel/PDF exports and persistent SQLite history are available through the local CLI.
-
 How does paying for an acquisition with cash, borrowing or shares change liquidity, debt service and dilution? This Python project connects sources and uses, five-year operations, instrument-level debt and cash schedules, scenario analysis, debt capacity and reverse stress.
 
 The October dashboard redesign adds eight sidebar sections, live timing controls, a model-insight panel and JSON download. Saved scenario selection updates supporting schedules and charts; overview comparison cards stay on the base case.
