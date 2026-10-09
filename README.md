@@ -18,7 +18,6 @@ Three clearly separated modes share the same calculation engine:
 ## Run it
 
 Hosting configuration and public-server limits are documented in [DEPLOYMENT.md](DEPLOYMENT.md).
-The repository includes a free-plan Render Blueprint. The live service opens in synthetic demonstration mode.
 
 Python 3.11 or newer. Run these commands from this repository folder:
 
