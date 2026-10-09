@@ -24,7 +24,7 @@ Engineering is implemented for the documented educational scope. Historical evid
 | Connected Excel | workbook_plan.py, portfolio_workbook.py, workbook.mjs, portable_excel.py | 25 synthetic, 28 public, 10 strict sheets; cached/formula checks; readable itemised schedules; Python snapshot scope explicit |
 | Concise memo | portfolio_memo.py, pdf_memo.py | Three two-page PDFs generated from corresponding reports; six pages visually inspected |
 | Documentation and learning | README, METHODOLOGY, LEARNING, IMPROVEMENT_LOG | Current screenshot, exact commands, source-to-output interview walkthrough and before/after findings |
-| Tests, clean install and CI | tests; scripts/verify_pipeline.py; scripts/verify_public.py; workflow | 74 tests; installed package outside source tree; portable exports and live HTTP checks; hosted CI not run |
+| Tests, clean install and CI | tests; scripts/verify_pipeline.py; scripts/verify_public.py; workflow | 74 tests; installed package outside source tree; portable exports and live HTTP checks; GitHub-hosted Ubuntu / Python 3.11 CI passed on 9 October 2026 |
 | Publishing preparation | pyproject.toml, ignore rules, delivery ZIP | Public repository published 9 October 2026; environments, dependency folders, inspection logs and generated databases excluded |
 
 ## Remaining historical and scope limits
