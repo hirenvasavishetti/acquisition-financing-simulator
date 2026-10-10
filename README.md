@@ -1,6 +1,6 @@
 # Acquisition Financing & Debt Capacity Simulator
 
-**[Try the live simulator](https://acquisition-financing-simulator.onrender.com/)** · [Model methodology](docs/METHODOLOGY.md)
+**[Try the live simulator](https://acquisition-financing-simulator.onrender.com/)**
 
 An acquisition can fit a leverage target and still run out of cash. This project tests that distinction with a connected five-year operating model, instrument-level debt schedules and period-by-period liquidity constraints. A separate fixed-income lab translates yield and spread shocks into bond P&L and hypothetical DV01 hedges.
 
@@ -69,7 +69,6 @@ Public and strict runs intentionally return exit code **2** while the strict rec
 | `data/` | Synthetic inputs, public assumptions and dated historical source extracts |
 | `tests/` | Independent benchmarks, reconciliations, source-removal regressions and HTTP checks |
 | `scripts/` | Traceable ingestion and reproducibility checks |
-| `docs/` | [Financial methodology](docs/METHODOLOGY.md) |
 | `full-output/`, `public-output/`, `historical-output/` | Saved reports for the three distinct scopes; regenerate after changes |
 | `legacy/`, `example-output/` | Earlier audit material; not current findings |
 
