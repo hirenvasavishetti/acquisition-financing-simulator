@@ -287,7 +287,7 @@ def write_pdf(report, path):
             + report.get("config_id", "n.a.")[:24]
             + ". Code ID: "
             + m["code_id"][:24]
-            + ". Reproduce with README commands. AI-assisted implementation and source extraction; no human review is claimed."
+            + ". Reproduce with README commands. Primary-source extraction review; no independent human sign-off is claimed."
         )
 
     def footer(canvas, doc):

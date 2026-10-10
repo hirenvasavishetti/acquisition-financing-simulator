@@ -116,10 +116,11 @@ class IntegrationTests(unittest.TestCase):
             root = Path(tmp)
             case = {"sources": [], "observations": []}
             report = build_report(case, root, demo_config(), full=False)
-            with patch.dict(os.environ, {"FINANCING_NODE": str(root / "no-node")}):
-                export_all(report, case, root, excel=True)
+            export_all(report, case, root, excel=True)
             wb = openpyxl.load_workbook(root / "evidence-review.xlsx", data_only=True)
-            self.assertEqual(len(wb.sheetnames), 20)
+            self.assertEqual(len(wb.sheetnames), 22)
+            self.assertIn("Joint credit stress", wb.sheetnames)
+            self.assertIn("Illustrative bond risk", wb.sheetnames)
             self.assertEqual(wb["Summary"]["B3"].value, BLOCKED)
             self.assertAlmostEqual(
                 wb["Liquidity"]["Q5"].value,

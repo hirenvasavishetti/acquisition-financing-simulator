@@ -2,9 +2,7 @@
 
 import html
 import json
-import os
 from pathlib import Path
-import subprocess
 
 
 def evidence_memo(report):
@@ -141,33 +139,9 @@ def export_all(report, case, destination, excel=False):
         from .workbook_plan import make_plan
 
         plan = make_plan(report, case)
-        builder = Path(__file__).with_name("workbook.mjs")
-        target = dest / "evidence-review.xlsx"
-        payload = json.dumps(
-            {"report": report, "case": case, "plan": plan}, allow_nan=False
-        )
-        try:
-            result = subprocess.run(
-                [os.environ.get("FINANCING_NODE", "node"), str(builder), str(target)],
-                input=payload,
-                text=True,
-                encoding="utf-8",
-                capture_output=True,
-                check=True,
-                env={
-                    k: v for k, v in os.environ.items() if k != "FINANCING_PREVIEW_DIR"
-                },
-            )
-        except FileNotFoundError:
-            from .portable_excel import write_xlsx
+        from .portable_excel import write_xlsx
 
-            write_xlsx(plan, target)
-        except subprocess.CalledProcessError as exc:
-            if "ERR_MODULE_NOT_FOUND" not in (exc.stderr or ""):
-                raise
-            from .portable_excel import write_xlsx
-
-            write_xlsx(plan, target)
+        write_xlsx(plan, dest / "evidence-review.xlsx")
 
 
 def historical_html(report):

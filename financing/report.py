@@ -13,6 +13,9 @@ def build_report(
     public_information=False,
     public_overrides=None,
 ):
+    from .credit import stress_grid
+    from .markets import bond_risk
+
     evidence = check_evidence(case, root)
     from .historical_review import (
         gap_register,
@@ -33,6 +36,7 @@ def build_report(
         "engineering_status": "Not run",
         "historical_mapping_error": None,
     }
+    report["bond_lab"] = bond_risk()
     report["historical_gap_register"] = gap_register(case, evidence)
     report["supported_historical_calculations"] = supported_calculations(evidence)
     report["historical_operating_sensitivities"] = partial_sensitivities(evidence)
@@ -48,6 +52,9 @@ def build_report(
         report["public_information"] = analyse_public(
             evidence, report["historical_gap_register"], full, public_overrides
         )
+        public_bundle = report["public_information"]
+        if public_bundle.get("config"):
+            public_bundle["joint_stress"] = stress_grid(public_bundle["config"])
         from .analysis import code_id
 
         report["public_information"]["provenance"] = {
@@ -115,6 +122,7 @@ def build_report(
             dbm.store_evidence(db, case, evidence)
             config = dbm.load_config(db, cid)
         bundle = analyse(config, full)
+        bundle["joint_stress"] = stress_grid(config)
         report["model"] = bundle
         report["config_id"] = fingerprint(config)
         report["engineering_status"] = (

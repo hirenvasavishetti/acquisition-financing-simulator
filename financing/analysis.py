@@ -94,7 +94,7 @@ def analyse(config, full=True):
         comparisons=comparisons + refi,
         refinancing=refi,
         quarterly=quarterly,
-        capacity={s: capacity(config, s, frequency=frequency) for s in STRUCTURES},
+        capacity=timing_capacity[str(frequency)],
         reverse_stress={
             s: reverse_stress(config, s, frequency=frequency) for s in STRUCTURES
         },

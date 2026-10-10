@@ -138,6 +138,9 @@ class Application:
                 status, body = 414, error_payload('Request query too long')
             elif path == '/healthz':
                 body = b'{"status":"ok"}'
+            elif path == '/api/bond-risk':
+                from .markets import from_query
+                body = json.dumps(from_query(env.get('QUERY_STRING', '')), allow_nan=False).encode()
             elif path not in ('/', '/api/report'):
                 status, body = 404, error_payload('Not found')
             else:

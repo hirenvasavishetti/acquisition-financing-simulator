@@ -49,6 +49,7 @@ class PublicCaseTests(unittest.TestCase):
         p = r["public_information"]
         self.assertIn("projected_bridge", p)
         self.assertEqual(p["base"], [])
+        self.assertNotIn("joint_stress", p)
         self.assertEqual(p["output_policy"][1]["status"], "Blocked")
         self.assertTrue(
             any(
@@ -67,6 +68,7 @@ class PublicCaseTests(unittest.TestCase):
         p = self.report()["public_information"]
         self.assertNotIn("projected_bridge", p)
         self.assertEqual(p["base"], [])
+        self.assertNotIn("joint_stress", p)
 
     def test_verified_public_envelopes_and_contractual_payoff(self):
         p = self.report()["public_information"]

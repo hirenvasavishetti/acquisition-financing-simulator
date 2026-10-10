@@ -257,9 +257,6 @@ class EvidenceTests(unittest.TestCase):
                 self.assertEqual(self.gate()["status"], BLOCKED)
                 source["path"] = original
 
-    @unittest.skipUnless(
-        os.environ.get("FINANCING_NODE"), "Optional bundled Node/Excel integration"
-    )
     def test_required_source_removal_reaches_saved_excel_and_cli_json(self):
         from openpyxl import load_workbook
 

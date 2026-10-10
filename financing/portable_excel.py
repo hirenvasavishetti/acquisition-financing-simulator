@@ -1,4 +1,4 @@
-"""Portable fallback for installations without the bundled Artifact Tool.
+"""Excel writer for the shared report and workbook plan.
 
 The same workbook plan contains formulas and Python-validated cached results.
 No financial calculation is reimplemented in this writer.

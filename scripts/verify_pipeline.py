@@ -25,12 +25,12 @@ def main():
 
     wb = openpyxl.load_workbook(output / "evidence-review.xlsx", data_only=True)
     expected_sheets = (
-        25
+        27
         if any(
             x["status"] == "Supported"
             for x in report.get("supported_historical_calculations", [])
         )
-        else 20
+        else 22
     )
     assert (
         len(wb.sheetnames) == expected_sheets and wb["Summary"]["B3"].value == BLOCKED
@@ -46,6 +46,8 @@ def main():
         )
         < 1e-6
     )
+    assert len(report["model"]["joint_stress"]["cells"]) == 27
+    assert abs(report["bond_lab"]["price"] - 100) < 1e-9
     wb.close()
     assert len(PdfReader(output / "financing-memo.pdf").pages) == 2
     with socket.socket() as sock:

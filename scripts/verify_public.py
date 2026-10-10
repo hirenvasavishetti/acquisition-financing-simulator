@@ -36,7 +36,7 @@ def main():
     from pypdf import PdfReader
 
     w = openpyxl.load_workbook(out / "evidence-review.xlsx", data_only=True)
-    assert len(w.sheetnames) == 28 and w["Summary"]["B3"].value == BLOCKED
+    assert len(w.sheetnames) == 30 and w["Summary"]["B3"].value == BLOCKED
     assert (
         abs(
             w["Projected closing bridge"]["H5"].value
@@ -56,6 +56,8 @@ def main():
     for s in w:
         for row in s:
             assert not any(c.data_type == "e" for c in row), s.title
+    assert len(p["joint_stress"]["cells"]) == 27
+    assert "Joint credit stress" in w.sheetnames
     w.close()
     pdf = PdfReader(out / "financing-memo.pdf")
     assert len(pdf.pages) == 2
@@ -77,7 +79,7 @@ def main():
     finally:
         conn.close()
     print(
-        "Public outputs verified: scenario identities, 28 sheets, two-page memo; strict block preserved."
+        "Public outputs verified: scenario identities, 30 sheets, two-page memo; strict block preserved."
     )
 
 

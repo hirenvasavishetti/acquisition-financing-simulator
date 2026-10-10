@@ -212,6 +212,50 @@ def augment(sheets, report):
                 for x in public["investment_split"]
             ],
         )
+    if model and model.get("joint_stress"):
+        add(
+            "Joint credit stress",
+            [
+                "Structure",
+                "Margin bp",
+                "Rate bp",
+                "Cash cushion USD m",
+                "All screens pass",
+                "First breach",
+            ],
+            [
+                [
+                    c["structure"],
+                    c["margin_bp"],
+                    c["rate_bp"],
+                    c["cash_headroom"],
+                    c["feasible"],
+                    constraint(c["first_breach"]),
+                ]
+                for c in model["joint_stress"]["cells"]
+            ],
+        )
+    bond = report.get("bond_lab")
+    if bond:
+        add(
+            "Illustrative bond risk",
+            ["Metric", "Value"],
+            [
+                ["Scope", bond["scope"]],
+                ["Notional USD", bond["inputs"]["notional"]],
+                ["Price per 100", bond["price"]],
+                ["Modified duration", bond["modified_duration"]],
+                ["Convexity", bond["convexity"]],
+                ["DV01 USD per bp", bond["dv01"]],
+                ["CS01 USD per bp", bond["cs01"]],
+                ["Hypothetical short contracts", bond["hedge_short_contracts"]],
+                ["Residual DV01 USD per bp", bond["residual_dv01"]],
+                ["Limitations", bond["limitations"]],
+            ],
+        )
+        extras[-1]["rows"][1][
+            0
+        ] = "Standalone hypothetical bond. Dollar risks are USD, not USD millions."
     # Keep established sheets, positions within each sheet and useful historic material.
     for spec in sheets:
         if spec["name"] == "Summary":
