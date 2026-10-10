@@ -24,12 +24,23 @@ function setupWorkspace() {
     <div class="brand"><span class="brand-mark" aria-hidden="true">A/F</span><span>Acquisition<span style="display:block;font-size:11px;font-weight:400;letter-spacing:.6px;color:#b6c2a5">Finance research</span></span></div>
     <div class="nav-caption">Research workspace</div>`;
   oldNav.replaceChildren();
-  const icons = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10'];
+  const icons = [
+    '<rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>',
+    '<path d="M4 6h16M4 12h16M4 18h16"/><circle cx="9" cy="6" r="2"/><circle cx="16" cy="12" r="2"/><circle cx="8" cy="18" r="2"/>',
+    '<path d="M4 7h16m-4-4 4 4-4 4M20 17H4m4-4-4 4 4 4"/>',
+    '<path d="M4 20V4m0 16h17M8 15l4-5 4 3 5-8"/>',
+    '<path d="M4 19h16M7 15V9m5 6V4m5 11v-5"/>',
+    '<path d="m3 17 5-7 5 4 8-10M3 7l5 7 5-4 8 10"/>',
+    '<path d="M4 20h16M6 16V8h4v8m4 0V4h4v12"/>',
+    '<path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6zM12 8v5m0 3h.01"/>',
+    '<path d="M3 12h4l3-7 4 14 3-7h4"/>',
+    '<path d="M5 3h10l4 4v14H5zM14 3v5h5M8 12h8m-8 4h6"/>'
+  ];
   Object.entries(viewNames).forEach(([id, title], i) => {
     const button = document.createElement('button');
     button.dataset.view = id;
     button.innerHTML =
-      `<span class="nav-icon" aria-hidden="true">${icons[i]}</span><span>${title}</span>`;
+      `<span class="nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${icons[i]}</svg></span><span>${title}</span>`;
     button.onclick = () => {
       showView(id);
       $("viewTitle").tabIndex = -1;
@@ -96,6 +107,17 @@ function setupWorkspace() {
   chartGrid.classList.add('overview-chart-grid');
   $('overview').insertBefore(chartGrid, $('finding').closest('.panel'));
   $('tradeoffChart').closest('.panel').classList.add('tradeoff-panel');
+  const shortcut = $('selectedFinding').closest('.panel');
+  shortcut.classList.add('research-shortcut');
+  shortcut.querySelector('h3').textContent = 'Where does the plan break?';
+  const shortcutCopy = document.createElement('p');
+  shortcutCopy.textContent = 'Explore margin pressure and higher rates together in Credit Risk.';
+  shortcut.append(shortcutCopy);
+  const shortcutButton = document.createElement('button');
+  shortcutButton.className = 'primary';
+  shortcutButton.textContent = 'Explore Credit Risk';
+  shortcutButton.onclick = () => showView('creditView');
+  shortcut.append(shortcutButton);
   // Keep the three trend charts and funding comparison together on Overview.
   chartGrid.append($('tradeoffChart').closest('.panel'));
   for (const [chartId, label, hasThreshold] of [
@@ -320,13 +342,13 @@ function chart(id, rows, key, floor, formatter = money) {
     const points = segment.map(([i, value]) => `${x(i)},${y(value)}`).join(' ');
     element('polygon', {
       points: `${x(segment[0][0])},180 ${points} ${x(segment.at(-1)[0])},180`,
-      fill: '#167f83',
-      opacity: '.18'
+      fill: '#dccbff',
+      opacity: '.65'
     });
     element('polyline', {
       points,
       fill: 'none',
-      stroke: '#13777d',
+      stroke: '#7545f5',
       'stroke-width': 2.5,
       'stroke-linejoin': 'round'
     });
@@ -342,7 +364,7 @@ function chart(id, rows, key, floor, formatter = money) {
     x2: 417,
     y1: y(floor),
     y2: y(floor),
-    stroke: '#a35c2e',
+    stroke: '#647827',
     'stroke-dasharray': '5 4',
     'stroke-width': 1.5
   });
@@ -352,14 +374,14 @@ function chart(id, rows, key, floor, formatter = money) {
         cx: x(i),
         cy: y(values[i]),
         r: 3,
-        fill: '#13777d'
+        fill: '#7545f5'
       });
       element('text', {
         x: x(i),
         y: Math.max(18, y(values[i]) - 12),
         'text-anchor': i ? 'end' : 'start',
         'font-size': 11,
-        fill: '#126269'
+        fill: '#6435d1'
       }, formatter(values[i]));
     }
     element('text', {

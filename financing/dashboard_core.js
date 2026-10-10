@@ -220,8 +220,8 @@ function renderReport() {
       title.textContent = r.structure;
       d.append(title);
       for (let [l, v] of [
-          ['New borrowing', money(r.opening.total_new_borrowing)],
-          ['Minimum cash', money(r.min_cash)],
+          ['New borrowing · USD m', money(r.opening.total_new_borrowing)],
+          ['Minimum cash · USD m', money(r.min_cash)],
           ['Common share dilution', pct(r.opening.ownership_dilution)]
         ]) {
         let p = document.createElement('div');

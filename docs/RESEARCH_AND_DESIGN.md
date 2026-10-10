@@ -27,7 +27,9 @@ Navigation | Title, timing and export
            | Funding comparison and schedules | Model context
 ```
 
-Palette: slate #182c3c, teal #126a72, ochre #b77836, paper #ffffff, background #edf1f4, muted text #586b79. Typography uses the platform's Segoe UI/system sans-serif with tabular numerals. Funding comparison columns share a frame; schedules have restrained borders and sticky headers. Negative states include text, rather than relying on colour alone. Focus outlines, native labelled controls, reduced motion and a mobile navigation drawer support keyboard and small-screen use. No external font or chart service is required.
+Palette: olive #20251b, lime #d0ff62, purple #7545f5, lavender #dccbff, paper #ffffff, workspace #f4f5f8, text #25282d. The reference-led layout uses a narrow inset sidebar, separate compact funding cards, a two-column chart grid and a white Model insights rail. A purple Credit Risk shortcut sits beside coverage; it keeps the selected scenario's actual breach text. Purple trends and labelled dashed analytical thresholds retain their model values. The borrowing comparison remains a bar chart: it is not presented as a reconciled funding-composition donut.
+
+Typography uses Segoe UI/system sans-serif and tabular numerals without external requests. Rounded cards have subtle borders; lime actions use dark text. Breaches and evidence limitations retain text labels. All ten sections, native controls, focus outlines, reduced motion and the mobile navigation drawer remain. Insights move below the content on narrower screens. Web exports remain model JSON plus a separate hypothetical bond JSON; Excel and PDF exports use the documented CLI. No calculation or evidence dependency changed for this visual redesign.
 
 ## Model scope
 
