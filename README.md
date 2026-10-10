@@ -73,7 +73,7 @@ Public and strict runs intentionally return exit code **2** while the strict rec
 | `full-output/`, `public-output/`, `historical-output/` | Saved reports for the three distinct scopes; regenerate after changes |
 | `legacy/`, `example-output/` | Earlier audit material; not current findings |
 
-See [deployment instructions](DEPLOYMENT.md) for Render configuration, request limits and cold starts. The existing free HTTPS address works independently of a local computer; its first request after inactivity can be slow.
+The existing free HTTPS address works independently of a local computer; its first request after inactivity can be slow.
 
 ## Analytical boundaries
 
