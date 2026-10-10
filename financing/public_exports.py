@@ -339,7 +339,7 @@ def narrative(p):
         "Public-case amounts are USD millions. Projected close: 1 November 2025; annual years 1–5 follow closing. No target opening cash or terminated ABL is counted as available liquidity. Negative cash is an unfunded deficit, not permitted borrowing.",
         "Capacity uses a $25m grid with $5m boundary refinement; narrow feasible regions can be missed. Reverse revenue stress uses one percentage-point steps. Analytical cash/leverage/coverage thresholds are not contractual covenants.",
         "Known-award cash bounds exclude unknown taxes and consent costs. Common-share dilution excludes converted awards. Enterprise value remains unavailable. The $200 reference share value is an illustrative future valuation assumption, not a verified market price.",
-        "Forecast limitations: prior-year seasonal cash-flow calibration is imperfect; no actual interim cash rollforward, daily liquidity or legal cash availability is asserted. Base cash access is an assumption. See PUBLIC_CASE_REVIEW.md for every forecast convention and source reference.",
+        "Forecast limitations: prior-year seasonal cash-flow calibration is imperfect; no actual interim cash rollforward, daily liquidity or legal cash availability is asserted. Base cash access is an assumption. See docs/METHODOLOGY.md for forecast conventions and source-register.json for source references.",
     ]
     return text + ["Unbounded: " + s for s in p["unbounded_material_items"]]
 
@@ -483,5 +483,5 @@ def pdf_story(p, paragraph, table, story, pagebreak):
         "Sources: DKS and FL FY2024 Forms 10-K filed 27 March 2025, 2024 third-quarter filings, merger agreement Sections 3.4/7.16 filed 15 May 2025 and original note/credit agreements. Reviewed extracts and exact claim references are in the source register; no later publications or private records were used."
     )
     paragraph(
-        "See workbook Public output policy and Public gap assessment, memo.md and PUBLIC_CASE_REVIEW.md. The strict 23-gap assessment is preserved; public projections do not establish historical completeness."
+        "See workbook Public output policy and Public gap assessment, memo.md and docs/METHODOLOGY.md. The strict 23-gap assessment is preserved; public projections do not establish historical completeness."
     )

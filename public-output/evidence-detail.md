@@ -12,7 +12,7 @@ Passing scenario conditions: Lower reinvestment and dividends suspended — Mixe
 Public-case amounts are USD millions. Projected close: 1 November 2025; annual years 1–5 follow closing. No target opening cash or terminated ABL is counted as available liquidity. Negative cash is an unfunded deficit, not permitted borrowing.
 Capacity uses a $25m grid with $5m boundary refinement; narrow feasible regions can be missed. Reverse revenue stress uses one percentage-point steps. Analytical cash/leverage/coverage thresholds are not contractual covenants.
 Known-award cash bounds exclude unknown taxes and consent costs. Common-share dilution excludes converted awards. Enterprise value remains unavailable. The $200 reference share value is an illustrative future valuation assumption, not a verified market price.
-Forecast limitations: prior-year seasonal cash-flow calibration is imperfect; no actual interim cash rollforward, daily liquidity or legal cash availability is asserted. Base cash access is an assumption. See PUBLIC_CASE_REVIEW.md for every forecast convention and source reference.
+Forecast limitations: prior-year seasonal cash-flow calibration is imperfect; no actual interim cash rollforward, daily liquidity or legal cash availability is asserted. Base cash access is an assumption. See docs/METHODOLOGY.md for forecast conventions and source-register.json for source references.
 Unbounded: Undisclosed lease consent/change-of-control payments: public aggregate maturities do not cap these charges.
 Unbounded: Award tax/withholding, exceptional commitments and future changes in capitalization are not completely bounded by announcement-date aggregate counts.
 
