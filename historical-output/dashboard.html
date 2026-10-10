@@ -1557,7 +1557,7 @@ function setupRiskViews(results) {
 
 function renderCreditGrid() {
   if (!$('creditGrid')) return;
-  const grid = M?.joint_stress;
+  const grid = P?.joint_stress || M?.joint_stress;
   $('creditScope').textContent = grid ? grid.scope + ' · ' + $('structure').value :
     'No supported full financing model is available for this assessment.';
   $('creditGrid').replaceChildren();
