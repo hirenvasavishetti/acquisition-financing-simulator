@@ -2104,7 +2104,7 @@
         "materiality_reason": "Material transaction or unregistered model dependency: unsupported consideration or scope can change financing needs."
       }
     ],
-    "case_id": "6a663fbc3a96a7c0e875d0d9092e2dd1b3c66255f9ac872499f54bac6d7ea7f8",
+    "case_id": "c363a449009f18e02c44239234c1429c50d76ed4c935936741262ef47cdb52fa",
     "source_state_id": "e77d6a26befc0f744f790357a8de4f74989e871779838394c0d46702192546b0"
   },
   "analysis_limitation": "Historical forecasts and preferences require verified material evidence and a reconciled historical model mapping. Synthetic engineering is independent.",
@@ -2112,6 +2112,72 @@
   "illustrative_results": [],
   "engineering_status": "Not run",
   "historical_mapping_error": null,
+  "bond_lab": {
+    "scope": "Standalone illustrative bond; not an actual-company security or market quote",
+    "inputs": {
+      "notional": 100000000,
+      "years": 5,
+      "coupon": 0.06,
+      "benchmark": 0.04,
+      "spread": 0.02,
+      "frequency": 2,
+      "hedge_dv01": 80
+    },
+    "yield_rate": 0.06,
+    "price": 99.99999999999999,
+    "market_value": 99999999.99999999,
+    "modified_duration": 4.265101418387915,
+    "convexity": 21.76650117980345,
+    "dv01": 42651.01418387914,
+    "cs01": 42651.01418387914,
+    "hedge_short_contracts": 533,
+    "residual_dv01": 11.014183879138727,
+    "scenarios": [
+      {
+        "rate_bp": -100,
+        "spread_bp": 0,
+        "price": 104.37603196548555,
+        "pnl": 4376031.965485566,
+        "duration_convexity_pnl": 4373933.924286932
+      },
+      {
+        "rate_bp": -50,
+        "spread_bp": 0,
+        "price": 102.16001904084712,
+        "pnl": 2160019.040847132,
+        "duration_convexity_pnl": 2159758.835668711
+      },
+      {
+        "rate_bp": 50,
+        "spread_bp": 0,
+        "price": 97.8944012298879,
+        "pnl": -2105598.7701120814,
+        "duration_convexity_pnl": -2105342.582719203
+      },
+      {
+        "rate_bp": 100,
+        "spread_bp": 0,
+        "price": 95.84169733871109,
+        "pnl": -4158302.6612889,
+        "duration_convexity_pnl": -4156268.912488897
+      },
+      {
+        "rate_bp": 0,
+        "spread_bp": 100,
+        "price": 95.84169733871109,
+        "pnl": -4158302.6612889,
+        "duration_convexity_pnl": -4156268.912488897
+      },
+      {
+        "rate_bp": 100,
+        "spread_bp": 100,
+        "price": 91.88910422064494,
+        "pnl": -8110895.779355047,
+        "duration_convexity_pnl": -8094872.813179758
+      }
+    ],
+    "limitations": "Coupon-date settlement; flat yield; no accrued interest, default, optionality or liquidity premium model. Equal DV01 and CS01 reflect the additive flat-yield assumption. Hedge DV01 is hypothetical; benchmark hedging does not remove credit-spread or basis risk."
+  },
   "historical_gap_register": [
     {
       "key": "transaction.share_and_award_treatment",

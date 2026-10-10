@@ -188158,10 +188158,421 @@
       }
     ]
   },
+  "joint_stress": {
+    "scope": "Conditional analytical screens, not contractual covenants or committed financing",
+    "definition": "Parallel benchmark increase and gross-margin reduction in every forecast period; all other assumptions held fixed. Cash headroom includes closing. A positive cash cushion alone does not establish feasibility.",
+    "cells": [
+      {
+        "structure": "Cash-first",
+        "margin_bp": 0,
+        "rate_bp": 0,
+        "feasible": false,
+        "min_cash": -1904.4458177454808,
+        "cash_headroom": -2654.445817745481,
+        "total_interest": 1208.2474244083112,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -151.7087785450933
+        }
+      },
+      {
+        "structure": "Cash-first",
+        "margin_bp": 0,
+        "rate_bp": 100,
+        "feasible": false,
+        "min_cash": -2001.108778466919,
+        "cash_headroom": -2751.108778466919,
+        "total_interest": 1340.6624390952127,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -171.35572178115763
+        }
+      },
+      {
+        "structure": "Cash-first",
+        "margin_bp": 0,
+        "rate_bp": 200,
+        "feasible": false,
+        "min_cash": -2097.771739188358,
+        "cash_headroom": -2847.771739188358,
+        "total_interest": 1473.0774537821142,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -191.00266501722297
+        }
+      },
+      {
+        "structure": "Cash-first",
+        "margin_bp": -100,
+        "rate_bp": 0,
+        "feasible": false,
+        "min_cash": -2709.067170016553,
+        "cash_headroom": -3459.067170016553,
+        "total_interest": 1208.2474244083112,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -307.2010121990938
+        }
+      },
+      {
+        "structure": "Cash-first",
+        "margin_bp": -100,
+        "rate_bp": 100,
+        "feasible": false,
+        "min_cash": -2805.730130737992,
+        "cash_headroom": -3555.730130737992,
+        "total_interest": 1340.6624390952127,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -326.84795543515855
+        }
+      },
+      {
+        "structure": "Cash-first",
+        "margin_bp": -100,
+        "rate_bp": 200,
+        "feasible": false,
+        "min_cash": -2902.3930914594303,
+        "cash_headroom": -3652.3930914594303,
+        "total_interest": 1473.0774537821142,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -346.4948986712229
+        }
+      },
+      {
+        "structure": "Cash-first",
+        "margin_bp": -200,
+        "rate_bp": 0,
+        "feasible": false,
+        "min_cash": -3513.6885222876335,
+        "cash_headroom": -4263.6885222876335,
+        "total_interest": 1208.2474244083112,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -462.69324585309477
+        }
+      },
+      {
+        "structure": "Cash-first",
+        "margin_bp": -200,
+        "rate_bp": 100,
+        "feasible": false,
+        "min_cash": -3610.3514830090717,
+        "cash_headroom": -4360.351483009072,
+        "total_interest": 1340.6624390952127,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -482.3401890891593
+        }
+      },
+      {
+        "structure": "Cash-first",
+        "margin_bp": -200,
+        "rate_bp": 200,
+        "feasible": false,
+        "min_cash": -3707.014443730509,
+        "cash_headroom": -4457.014443730509,
+        "total_interest": 1473.0774537821142,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -501.98713232522414
+        }
+      },
+      {
+        "structure": "Liquidity-first",
+        "margin_bp": 0,
+        "rate_bp": 0,
+        "feasible": false,
+        "min_cash": -1840.5015998529639,
+        "cash_headroom": -2590.501599852964,
+        "total_interest": 1261.0725768554014,
+        "first_breach": {
+          "period": 2,
+          "year": 2,
+          "constraint": "cash",
+          "headroom": -733.8431788712214
+        }
+      },
+      {
+        "structure": "Liquidity-first",
+        "margin_bp": 0,
+        "rate_bp": 100,
+        "feasible": false,
+        "min_cash": -1921.6048619730893,
+        "cash_headroom": -2671.604861973089,
+        "total_interest": 1409.3303426069497,
+        "first_breach": {
+          "period": 2,
+          "year": 2,
+          "constraint": "cash",
+          "headroom": -750.0
+        }
+      },
+      {
+        "structure": "Liquidity-first",
+        "margin_bp": 0,
+        "rate_bp": 200,
+        "feasible": false,
+        "min_cash": -1990.9858368333923,
+        "cash_headroom": -2740.9858368333926,
+        "total_interest": 1564.0933947979445,
+        "first_breach": {
+          "period": 2,
+          "year": 2,
+          "constraint": "cash",
+          "headroom": -750.0
+        }
+      },
+      {
+        "structure": "Liquidity-first",
+        "margin_bp": -100,
+        "rate_bp": 0,
+        "feasible": false,
+        "min_cash": -2526.3696708794596,
+        "cash_headroom": -3276.3696708794596,
+        "total_interest": 1297.0451724689829,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -72.85643260459824
+        }
+      },
+      {
+        "structure": "Liquidity-first",
+        "margin_bp": -100,
+        "rate_bp": 100,
+        "feasible": false,
+        "min_cash": -2632.292968184368,
+        "cash_headroom": -3382.292968184368,
+        "total_interest": 1442.1455797359804,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -94.38555807307546
+        }
+      },
+      {
+        "structure": "Liquidity-first",
+        "margin_bp": -100,
+        "rate_bp": 200,
+        "feasible": false,
+        "min_cash": -2738.2162654892763,
+        "cash_headroom": -3488.2162654892763,
+        "total_interest": 1587.245987002978,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -115.91468354155268
+        }
+      },
+      {
+        "structure": "Liquidity-first",
+        "margin_bp": -200,
+        "rate_bp": 0,
+        "feasible": false,
+        "min_cash": -3330.9910231505396,
+        "cash_headroom": -4080.9910231505396,
+        "total_interest": 1297.0451724689829,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -228.34866625859877
+        }
+      },
+      {
+        "structure": "Liquidity-first",
+        "margin_bp": -200,
+        "rate_bp": 100,
+        "feasible": false,
+        "min_cash": -3436.9143204554475,
+        "cash_headroom": -4186.9143204554475,
+        "total_interest": 1442.1455797359804,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -249.87779172707621
+        }
+      },
+      {
+        "structure": "Liquidity-first",
+        "margin_bp": -200,
+        "rate_bp": 200,
+        "feasible": false,
+        "min_cash": -3542.837617760356,
+        "cash_headroom": -4292.837617760356,
+        "total_interest": 1587.245987002978,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -271.40691719555343
+        }
+      },
+      {
+        "structure": "Mixed consideration",
+        "margin_bp": 0,
+        "rate_bp": 0,
+        "feasible": false,
+        "min_cash": -1615.6857259822552,
+        "cash_headroom": -2365.6857259822555,
+        "total_interest": 798.4176708665848,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -68.51256572631758
+        }
+      },
+      {
+        "structure": "Mixed consideration",
+        "margin_bp": 0,
+        "rate_bp": 100,
+        "feasible": false,
+        "min_cash": -1669.6560130295784,
+        "cash_headroom": -2419.6560130295784,
+        "total_interest": 872.3495709314111,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -79.61756306115763
+        }
+      },
+      {
+        "structure": "Mixed consideration",
+        "margin_bp": 0,
+        "rate_bp": 200,
+        "feasible": false,
+        "min_cash": -1723.2365328180902,
+        "cash_headroom": -2473.2365328180904,
+        "total_interest": 946.4125423125649,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -90.72256039599824
+        }
+      },
+      {
+        "structure": "Mixed consideration",
+        "margin_bp": -100,
+        "rate_bp": 0,
+        "feasible": false,
+        "min_cash": -2391.4799616681785,
+        "cash_headroom": -3141.4799616681785,
+        "total_interest": 805.2547986025969,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -224.00479938031833
+        }
+      },
+      {
+        "structure": "Mixed consideration",
+        "margin_bp": -100,
+        "rate_bp": 100,
+        "feasible": false,
+        "min_cash": -2446.1165485555916,
+        "cash_headroom": -3196.1165485555916,
+        "total_interest": 880.0994381743965,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -235.10979671515838
+        }
+      },
+      {
+        "structure": "Mixed consideration",
+        "margin_bp": -100,
+        "rate_bp": 200,
+        "feasible": false,
+        "min_cash": -2500.7531354430057,
+        "cash_headroom": -3250.7531354430057,
+        "total_interest": 954.944077746196,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -246.2147940499986
+        }
+      },
+      {
+        "structure": "Mixed consideration",
+        "margin_bp": -200,
+        "rate_bp": 0,
+        "feasible": false,
+        "min_cash": -3196.101313939258,
+        "cash_headroom": -3946.101313939258,
+        "total_interest": 805.2547986025969,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -379.4970330343194
+        }
+      },
+      {
+        "structure": "Mixed consideration",
+        "margin_bp": -200,
+        "rate_bp": 100,
+        "feasible": false,
+        "min_cash": -3250.737900826671,
+        "cash_headroom": -4000.737900826671,
+        "total_interest": 880.0994381743965,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -390.6020303691594
+        }
+      },
+      {
+        "structure": "Mixed consideration",
+        "margin_bp": -200,
+        "rate_bp": 200,
+        "feasible": false,
+        "min_cash": -3305.3744877140857,
+        "cash_headroom": -4055.3744877140857,
+        "total_interest": 954.944077746196,
+        "first_breach": {
+          "period": 1,
+          "year": 1,
+          "constraint": "cash",
+          "headroom": -401.70702770399976
+        }
+      }
+    ]
+  },
   "provenance": {
-    "case_id": "6a663fbc3a96a7c0e875d0d9092e2dd1b3c66255f9ac872499f54bac6d7ea7f8",
+    "case_id": "c363a449009f18e02c44239234c1429c50d76ed4c935936741262ef47cdb52fa",
     "source_state_id": "e77d6a26befc0f744f790357a8de4f74989e871779838394c0d46702192546b0",
-    "code_id": "20a7dd97a0e09ba61dc0dbd3fb531de388755fe01c412acfbcadc6bd628536c8",
+    "code_id": "2adb17c37edf46ecd715b24bc960518988dc0b21afc18dd60cb25067c37fec88",
     "cutoff": "2025-05-15"
   }
 }

@@ -2104,7 +2104,7 @@
         "materiality_reason": "Material transaction or unregistered model dependency: unsupported consideration or scope can change financing needs."
       }
     ],
-    "case_id": "6a663fbc3a96a7c0e875d0d9092e2dd1b3c66255f9ac872499f54bac6d7ea7f8",
+    "case_id": "c363a449009f18e02c44239234c1429c50d76ed4c935936741262ef47cdb52fa",
     "source_state_id": "e77d6a26befc0f744f790357a8de4f74989e871779838394c0d46702192546b0"
   },
   "analysis_limitation": "Historical forecasts and preferences require verified material evidence and a reconciled historical model mapping. Synthetic engineering is independent.",
@@ -5991,6 +5991,72 @@
   ],
   "engineering_status": "Complete synthetic model run",
   "historical_mapping_error": null,
+  "bond_lab": {
+    "scope": "Standalone illustrative bond; not an actual-company security or market quote",
+    "inputs": {
+      "notional": 100000000,
+      "years": 5,
+      "coupon": 0.06,
+      "benchmark": 0.04,
+      "spread": 0.02,
+      "frequency": 2,
+      "hedge_dv01": 80
+    },
+    "yield_rate": 0.06,
+    "price": 99.99999999999999,
+    "market_value": 99999999.99999999,
+    "modified_duration": 4.265101418387915,
+    "convexity": 21.76650117980345,
+    "dv01": 42651.01418387914,
+    "cs01": 42651.01418387914,
+    "hedge_short_contracts": 533,
+    "residual_dv01": 11.014183879138727,
+    "scenarios": [
+      {
+        "rate_bp": -100,
+        "spread_bp": 0,
+        "price": 104.37603196548555,
+        "pnl": 4376031.965485566,
+        "duration_convexity_pnl": 4373933.924286932
+      },
+      {
+        "rate_bp": -50,
+        "spread_bp": 0,
+        "price": 102.16001904084712,
+        "pnl": 2160019.040847132,
+        "duration_convexity_pnl": 2159758.835668711
+      },
+      {
+        "rate_bp": 50,
+        "spread_bp": 0,
+        "price": 97.8944012298879,
+        "pnl": -2105598.7701120814,
+        "duration_convexity_pnl": -2105342.582719203
+      },
+      {
+        "rate_bp": 100,
+        "spread_bp": 0,
+        "price": 95.84169733871109,
+        "pnl": -4158302.6612889,
+        "duration_convexity_pnl": -4156268.912488897
+      },
+      {
+        "rate_bp": 0,
+        "spread_bp": 100,
+        "price": 95.84169733871109,
+        "pnl": -4158302.6612889,
+        "duration_convexity_pnl": -4156268.912488897
+      },
+      {
+        "rate_bp": 100,
+        "spread_bp": 100,
+        "price": 91.88910422064494,
+        "pnl": -8110895.779355047,
+        "duration_convexity_pnl": -8094872.813179758
+      }
+    ],
+    "limitations": "Coupon-date settlement; flat yield; no accrued interest, default, optionality or liquidity premium model. Equal DV01 and CS01 reflect the additive flat-yield assumption. Hedge DV01 is hypothetical; benchmark hedging does not remove credit-spread or basis risk."
+  },
   "historical_gap_register": [
     {
       "key": "transaction.share_and_award_treatment",
@@ -102482,10 +102548,391 @@
         }
       ]
     },
-    "code_id": "20a7dd97a0e09ba61dc0dbd3fb531de388755fe01c412acfbcadc6bd628536c8"
+    "code_id": "2adb17c37edf46ecd715b24bc960518988dc0b21afc18dd60cb25067c37fec88",
+    "joint_stress": {
+      "scope": "Conditional analytical screens, not contractual covenants or committed financing",
+      "definition": "Parallel benchmark increase and gross-margin reduction in every forecast period; all other assumptions held fixed. Cash headroom includes closing. A positive cash cushion alone does not establish feasibility.",
+      "cells": [
+        {
+          "structure": "Cash-first",
+          "margin_bp": 0,
+          "rate_bp": 0,
+          "feasible": false,
+          "min_cash": 472.30257066564457,
+          "cash_headroom": -277.69742933435543,
+          "total_interest": 476.08807486628456,
+          "first_breach": {
+            "period": 5,
+            "year": 5,
+            "constraint": "cash",
+            "headroom": -277.69742933435543
+          }
+        },
+        {
+          "structure": "Cash-first",
+          "margin_bp": 0,
+          "rate_bp": 100,
+          "feasible": false,
+          "min_cash": 434.312711098327,
+          "cash_headroom": -315.687288901673,
+          "total_interest": 526.7412209560412,
+          "first_breach": {
+            "period": 5,
+            "year": 5,
+            "constraint": "cash",
+            "headroom": -315.687288901673
+          }
+        },
+        {
+          "structure": "Cash-first",
+          "margin_bp": 0,
+          "rate_bp": 200,
+          "feasible": false,
+          "min_cash": 394.9936540586242,
+          "cash_headroom": -355.0063459413758,
+          "total_interest": 579.166630342311,
+          "first_breach": {
+            "period": 5,
+            "year": 5,
+            "constraint": "cash",
+            "headroom": -355.0063459413758
+          }
+        },
+        {
+          "structure": "Cash-first",
+          "margin_bp": -100,
+          "rate_bp": 0,
+          "feasible": false,
+          "min_cash": 0.0,
+          "cash_headroom": -750.0,
+          "total_interest": 561.3285512442447,
+          "first_breach": {
+            "period": 5,
+            "year": 5,
+            "constraint": "cash",
+            "headroom": -750.0
+          }
+        },
+        {
+          "structure": "Cash-first",
+          "margin_bp": -100,
+          "rate_bp": 100,
+          "feasible": false,
+          "min_cash": 0.0,
+          "cash_headroom": -750.0,
+          "total_interest": 626.9266484886239,
+          "first_breach": {
+            "period": 5,
+            "year": 5,
+            "constraint": "cash",
+            "headroom": -750.0
+          }
+        },
+        {
+          "structure": "Cash-first",
+          "margin_bp": -100,
+          "rate_bp": 200,
+          "feasible": false,
+          "min_cash": 0.0,
+          "cash_headroom": -750.0,
+          "total_interest": 694.5182403786866,
+          "first_breach": {
+            "period": 5,
+            "year": 5,
+            "constraint": "cash",
+            "headroom": -750.0
+          }
+        },
+        {
+          "structure": "Cash-first",
+          "margin_bp": -200,
+          "rate_bp": 0,
+          "feasible": false,
+          "min_cash": 0.0,
+          "cash_headroom": -750.0,
+          "total_interest": 633.0821842241953,
+          "first_breach": {
+            "period": 4,
+            "year": 4,
+            "constraint": "cash",
+            "headroom": -222.98404672230515
+          }
+        },
+        {
+          "structure": "Cash-first",
+          "margin_bp": -200,
+          "rate_bp": 100,
+          "feasible": false,
+          "min_cash": 0.0,
+          "cash_headroom": -750.0,
+          "total_interest": 709.8869339593524,
+          "first_breach": {
+            "period": 4,
+            "year": 4,
+            "constraint": "cash",
+            "headroom": -245.3016739963556
+          }
+        },
+        {
+          "structure": "Cash-first",
+          "margin_bp": -200,
+          "rate_bp": 200,
+          "feasible": false,
+          "min_cash": 0.0,
+          "cash_headroom": -750.0,
+          "total_interest": 788.3976738552708,
+          "first_breach": {
+            "period": 4,
+            "year": 4,
+            "constraint": "cash",
+            "headroom": -268.42966452227336
+          }
+        },
+        {
+          "structure": "Liquidity-first",
+          "margin_bp": 0,
+          "rate_bp": 0,
+          "feasible": false,
+          "min_cash": 405.07313839505287,
+          "cash_headroom": -344.92686160494713,
+          "total_interest": 548.0623432744505,
+          "first_breach": {
+            "period": 5,
+            "year": 5,
+            "constraint": "cash",
+            "headroom": -344.92686160494713
+          }
+        },
+        {
+          "structure": "Liquidity-first",
+          "margin_bp": 0,
+          "rate_bp": 100,
+          "feasible": false,
+          "min_cash": 356.99041973373596,
+          "cash_headroom": -393.00958026626404,
+          "total_interest": 612.1726348228732,
+          "first_breach": {
+            "period": 5,
+            "year": 5,
+            "constraint": "cash",
+            "headroom": -393.00958026626404
+          }
+        },
+        {
+          "structure": "Liquidity-first",
+          "margin_bp": 0,
+          "rate_bp": 200,
+          "feasible": false,
+          "min_cash": 307.0676123201388,
+          "cash_headroom": -442.9323876798612,
+          "total_interest": 678.7363780410024,
+          "first_breach": {
+            "period": 5,
+            "year": 5,
+            "constraint": "cash",
+            "headroom": -442.9323876798612
+          }
+        },
+        {
+          "structure": "Liquidity-first",
+          "margin_bp": -100,
+          "rate_bp": 0,
+          "feasible": false,
+          "min_cash": 0.0,
+          "cash_headroom": -750.0,
+          "total_interest": 633.1990413285989,
+          "first_breach": {
+            "period": 5,
+            "year": 5,
+            "constraint": "cash",
+            "headroom": -750.0
+          }
+        },
+        {
+          "structure": "Liquidity-first",
+          "margin_bp": -100,
+          "rate_bp": 100,
+          "feasible": false,
+          "min_cash": 0.0,
+          "cash_headroom": -750.0,
+          "total_interest": 712.2496431121081,
+          "first_breach": {
+            "period": 5,
+            "year": 5,
+            "constraint": "cash",
+            "headroom": -750.0
+          }
+        },
+        {
+          "structure": "Liquidity-first",
+          "margin_bp": -100,
+          "rate_bp": 200,
+          "feasible": false,
+          "min_cash": 0.0,
+          "cash_headroom": -750.0,
+          "total_interest": 793.8643656410742,
+          "first_breach": {
+            "period": 4,
+            "year": 4,
+            "constraint": "cash",
+            "headroom": -1.4184358277166211
+          }
+        },
+        {
+          "structure": "Liquidity-first",
+          "margin_bp": -200,
+          "rate_bp": 0,
+          "feasible": false,
+          "min_cash": 0.0,
+          "cash_headroom": -750.0,
+          "total_interest": 702.6847422347562,
+          "first_breach": {
+            "period": 4,
+            "year": 4,
+            "constraint": "cash",
+            "headroom": -263.7048956854339
+          }
+        },
+        {
+          "structure": "Liquidity-first",
+          "margin_bp": -200,
+          "rate_bp": 100,
+          "feasible": false,
+          "min_cash": 0.0,
+          "cash_headroom": -750.0,
+          "total_interest": 792.4491177419453,
+          "first_breach": {
+            "period": 4,
+            "year": 4,
+            "constraint": "cash",
+            "headroom": -287.7491918732896
+          }
+        },
+        {
+          "structure": "Liquidity-first",
+          "margin_bp": -200,
+          "rate_bp": 200,
+          "feasible": false,
+          "min_cash": 0.0,
+          "cash_headroom": -750.0,
+          "total_interest": 884.5471019310887,
+          "first_breach": {
+            "period": 4,
+            "year": 4,
+            "constraint": "cash",
+            "headroom": -312.85785208525266
+          }
+        },
+        {
+          "structure": "Mixed consideration",
+          "margin_bp": 0,
+          "rate_bp": 0,
+          "feasible": true,
+          "min_cash": 750.0,
+          "cash_headroom": 0.0,
+          "total_interest": 169.74526533324357,
+          "first_breach": null
+        },
+        {
+          "structure": "Mixed consideration",
+          "margin_bp": 0,
+          "rate_bp": 100,
+          "feasible": true,
+          "min_cash": 750.0,
+          "cash_headroom": 0.0,
+          "total_interest": 173.08784465113698,
+          "first_breach": null
+        },
+        {
+          "structure": "Mixed consideration",
+          "margin_bp": 0,
+          "rate_bp": 200,
+          "feasible": true,
+          "min_cash": 750.0,
+          "cash_headroom": 0.0,
+          "total_interest": 176.43042396903036,
+          "first_breach": null
+        },
+        {
+          "structure": "Mixed consideration",
+          "margin_bp": -100,
+          "rate_bp": 0,
+          "feasible": true,
+          "min_cash": 750.0,
+          "cash_headroom": 0.0,
+          "total_interest": 220.35178431291598,
+          "first_breach": null
+        },
+        {
+          "structure": "Mixed consideration",
+          "margin_bp": -100,
+          "rate_bp": 100,
+          "feasible": true,
+          "min_cash": 750.0,
+          "cash_headroom": 0.0,
+          "total_interest": 227.53321043221857,
+          "first_breach": null
+        },
+        {
+          "structure": "Mixed consideration",
+          "margin_bp": -100,
+          "rate_bp": 200,
+          "feasible": true,
+          "min_cash": 750.0,
+          "cash_headroom": 0.0,
+          "total_interest": 234.83514641591094,
+          "first_breach": null
+        },
+        {
+          "structure": "Mixed consideration",
+          "margin_bp": -200,
+          "rate_bp": 0,
+          "feasible": false,
+          "min_cash": 284.2439303515321,
+          "cash_headroom": -465.7560696484679,
+          "total_interest": 292.91912408804365,
+          "first_breach": {
+            "period": 4,
+            "year": 4,
+            "constraint": "cash",
+            "headroom": -77.07666577622456
+          }
+        },
+        {
+          "structure": "Mixed consideration",
+          "margin_bp": -200,
+          "rate_bp": 100,
+          "feasible": false,
+          "min_cash": 271.65277751105793,
+          "cash_headroom": -478.34722248894207,
+          "total_interest": 309.7073278753426,
+          "first_breach": {
+            "period": 4,
+            "year": 4,
+            "constraint": "cash",
+            "headroom": -79.76938863498106
+          }
+        },
+        {
+          "structure": "Mixed consideration",
+          "margin_bp": -200,
+          "rate_bp": 200,
+          "feasible": false,
+          "min_cash": 258.809154609536,
+          "cash_headroom": -491.190845390464,
+          "total_interest": 326.83215841070484,
+          "first_breach": {
+            "period": 4,
+            "year": 4,
+            "constraint": "cash",
+            "headroom": -82.61366554268068
+          }
+        }
+      ]
+    }
   },
   "config_id": "1a8ae10f2a4092f161ff409ca06005a491c00e8a8ce70dce6c698b13b2114955",
-  "run_id": "d02f6f67f7892b22b97cca3184d83661989e5620d304886e9300d12d31f93a99",
+  "run_id": "1b82eb3fe7ffddf22d6f35fe36b9b199e9a7481f9f23ff30d6cd06bcab67066d",
   "verified_observations": [
     {
       "key": "acquirer.FY2022.capex",
