@@ -219,7 +219,7 @@ def main():
                     key=obs["key"],
                     payload_hash=fingerprint(payload),
                     section=doc["section"],
-                    reviewer="Codex - machine-assisted primary-source review; not human sign-off",
+                    reviewer="Primary-source extraction review; no independent human sign-off",
                     reviewed_at="2026-09-14",
                     review_note=obs["extraction_method"],
                 )

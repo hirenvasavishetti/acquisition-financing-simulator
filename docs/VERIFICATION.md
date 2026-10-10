@@ -1,4 +1,17 @@
-# Verification record - 20 September 2026
+# Verification record
+
+## Credit risk and rates lab — 10 October 2026
+
+- 86 tests passed with no skips, including required-source removal through CLI and Excel, public-contract removal suppressing the joint stress grid, independent bond benchmarks and finite-difference DV01.
+- Local production-server smoke checks passed: default synthetic page, live quarterly recalculation, request isolation, all three scopes, evidence restrictions, invalid inputs, private routes and the bounded bond endpoint.
+- Synthetic export verification passed: 48 financing comparisons, 27 workbook sheets and two-page memo. Public verification passed: 30 workbook sheets, two-page memo, connected schedules and the matching SQLite review payload. Strict workbook has 11 sheets; no historical recommendation is unlocked.
+- A clean Python environment built and installed version 0.4.0 with web/export/test dependencies. `pip check` passed. Imports and report rendering outside the source checkout verified that packaged JavaScript/CSS, the bond benchmark and the 27-cell credit grid are available.
+- Desktop and narrow mobile layouts were inspected in the browser. Navigation, strict-mode controls and bond recalculation worked; the narrow layout had no document-level horizontal overflow. The standalone bond view hides acquisition controls and has its own export and units.
+- Existing synthetic and public base financing results exactly match the preceding published report. Historical values, periods, units, observations and source hashes are unchanged. Review-process wording retains the absence of independent human sign-off.
+- Saved examples and SHA256 manifests were regenerated. New risk outputs are labelled conditional or illustrative; none establishes lender commitment, covenant compliance or historical completeness.
+
+## Earlier verification records
+
 
 ## Render hosting — 9 October 2026
 

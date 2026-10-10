@@ -151,6 +151,4 @@ Ignore rules exclude credentials, caches, databases, environments and build file
 `full-output` documents the intentional demo; the SQLite snapshot is excluded from
 Git but provided in the delivery archive and recreated by the demo command.
 
-AI assistance: implementation, documentation and machine-assisted source extraction
-were prepared with OpenAI Codex. The owner should review and adapt this statement;
-no authorship, development history or human verification has been fabricated.
+Source extracts have not received independent human sign-off.

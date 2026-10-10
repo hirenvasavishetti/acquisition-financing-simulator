@@ -105,7 +105,7 @@ def main():
                         }
                     ),
                     section=section,
-                    reviewer="Codex machine-assisted review; no human signoff",
+                    reviewer="Primary-source extraction review; no independent human sign-off",
                     reviewed_at="2026-09-19",
                     review_note=section,
                 )

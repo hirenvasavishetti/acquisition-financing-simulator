@@ -20,11 +20,13 @@ Engineering is implemented for the documented educational scope. Historical evid
 | Reinvestment uncertainty | public scenario configuration | Mechanical lower capex; linked growth reductions; dividends and synergy dependence shown |
 | Editable assumptions and validation | public_inputs.py; public_defaults.json; data/public-assumptions.json | Live edits reach engine; dates, ranges, units and instrument identity validated; facts remain separate |
 | Maintainable lightweight architecture | Existing modules plus funding/public_inputs/portfolio presentation modules | Consistent Black formatting; validated financial boundaries; shared calculation results and provenance IDs |
+| Joint credit stress | credit.py, canonical engine | 27 joint margin/rate cases; base reconciliation; annual/quarterly timing; unavailable when required public contracts are removed |
+| Fixed-income risk | markets.py, /api/bond-risk, Rates Lab | Par/zero-coupon benchmarks, finite-difference DV01, hedge rounding and bounded inputs; standalone hypothetical instrument |
 | Dashboard | portfolio_dashboard.py, live CLI server | Three modes, status/structure cards, charts, saved scenarios and live edits; stale-result treatment; desktop/narrow inspection |
-| Connected Excel | workbook_plan.py, portfolio_workbook.py, workbook.mjs, portable_excel.py | 25 synthetic, 28 public, 10 strict sheets; cached/formula checks; readable itemised schedules; Python snapshot scope explicit |
+| Connected Excel | workbook_plan.py, portfolio_workbook.py, portable_excel.py | 27 synthetic, 30 public, 11 strict sheets; cached/formula checks; readable itemised schedules; Python snapshot scope explicit |
 | Concise memo | portfolio_memo.py, pdf_memo.py | Three two-page PDFs generated from corresponding reports; six pages visually inspected |
-| Documentation and learning | README, METHODOLOGY, LEARNING, IMPROVEMENT_LOG | Current screenshot, exact commands, source-to-output interview walkthrough and before/after findings |
-| Tests, clean install and CI | tests; scripts/verify_pipeline.py; scripts/verify_public.py; workflow | 74 tests; installed package outside source tree; portable exports and live HTTP checks; GitHub-hosted Ubuntu / Python 3.11 CI passed on 9 October 2026 |
+| Documentation and learning | README, METHODOLOGY, RESEARCH_AND_DESIGN, IMPROVEMENT_LOG | Recruiter walkthrough, exact commands, research sources and before/after findings |
+| Tests, clean install and CI | tests; scripts/verify_pipeline.py; scripts/verify_public.py; workflow | 86 tests; installed package outside source tree; portable exports and live HTTP checks; GitHub-hosted Ubuntu / Python 3.11 CI passed on 9 October 2026 |
 | Publishing preparation | pyproject.toml, ignore rules, delivery ZIP | Public repository published 9 October 2026; environments, dependency folders, inspection logs and generated databases excluded |
 
 ## Remaining historical and scope limits

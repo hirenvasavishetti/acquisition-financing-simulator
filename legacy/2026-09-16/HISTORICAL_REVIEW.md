@@ -24,7 +24,7 @@ At the agreement's 12 May capitalization date, common shares alone imply **2,293
 
 ## Primary evidence collected
 
-Fourteen integrity-checked factual-extract archives represent twelve distinct primary documents. Eleven archives were added to the prior three, including two supplements to already reviewed annual filings. Each factual observation binds value, unit, period and company to a reviewed document section and payload hash. The archives contain reviewed extracts, **not original filing bytes**, and were reviewed by Codex, not a human. An accessible URL alone does not pass the gate.
+Fourteen integrity-checked factual-extract archives represent twelve distinct primary documents. Eleven archives were added to the prior three, including two supplements to already reviewed annual filings. Each factual observation binds value, unit, period and company to a reviewed document section and payload hash. The archives contain reviewed extracts, **not original filing bytes**, and have not received independent human sign-off. An accessible URL alone does not pass the gate.
 
 | Publication | Primary document | Used for |
 |---|---|---|

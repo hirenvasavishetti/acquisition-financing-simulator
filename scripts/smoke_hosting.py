@@ -23,12 +23,17 @@ def verify(base):
     assert json.loads(get('/healthz'))['status'] == 'ok'
     home = get('/').decode()
     assert 'Atlas' in home and 'synthetic' in home
-    print('PASS default synthetic dashboard', flush=True)
+    assert 'Translate yield moves' in home and 'Credit Risk' in home
+    bond = json.loads(get('/api/bond-risk?benchmark=0.05'))
+    assert bond['price'] < 100 and bond['dv01'] > 0
+    get('/api/bond-risk?years=1000000', 422)
+    print('PASS default dashboard and bounded bond-risk endpoint', flush=True)
     first = json.loads(get('/api/report?mode=synthetic&cash_floor=900&frequency=4'))
     assert first['model']['config']['policy']['cash_floor'] == 900
     assert first['model']['frequency'] == 4
     second = json.loads(get('/api/report?mode=synthetic'))
     assert second['model']['config']['policy']['cash_floor'] != 900
+    assert len(second['model']['joint_stress']['cells']) == 27
     print('PASS live recalculation, quarterly timing and visitor isolation', flush=True)
     public = json.loads(get('/api/report?mode=public&cash_access=0.5'))
     assert public['public_information']['assumptions']['cash_access'] == .5

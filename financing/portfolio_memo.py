@@ -235,7 +235,7 @@ def write_pdf(report, path):
     p(
         "DKS and FL FY2024 Forms 10-K (27 March 2025), Q3 2024 cash-flow statements, merger agreement (15 May 2025), and original indentures. Exact extracted claims, units and dates are in Sources and source-register.json. Hashes establish integrity, not accuracy. Machine-assisted review; no independent human signoff."
         if public
-        else "Synthetic facts are fictional and deterministic. See tests/full_benchmark.json, the independent Decimal financing-fee test, and METHODOLOGY.md. The separate strict assessment uses the 15 May 2025 information cutoff."
+        else "Synthetic facts are fictional and deterministic. See tests/full_benchmark.json, the independent Decimal financing-fee test, and docs/METHODOLOGY.md. The separate strict assessment uses the 15 May 2025 information cutoff."
     )
 
     def footer(canvas, doc):

@@ -24,7 +24,7 @@ are separate. Test evidence and environment are recorded in VERIFICATION.md.
 | Dashboard | dashboard.py, live CLI server | Browser structure selection and threshold recomputation; API validation | Blocked status persistent |
 | Excel | workbook_plan.py, workbook.mjs, portable_excel.py | 21 demo sheets / 9 historical sheets, cached/formula reconciliation, error-cell scan and rendered previews | Blocked status in Summary and evidence details |
 | Two-page memo | pdf_memo.py | Two-page count; both pages visually inspected | Explicitly illustrative; historical gaps stated |
-| Learning and documentation | README, LEARNING, METHODOLOGY, DECISIONS | Input-to-SQL/model/UI trace; solver explanation; five exercises; interview questions | AI-assisted source-review attribution explicit |
+| Learning and documentation | README, LEARNING, METHODOLOGY, DECISIONS | Input-to-SQL/model/UI trace; solver explanation; five exercises; interview questions | Source-review limitations explicit |
 | CI and clean install | pyproject.toml, workflow, verify_pipeline.py | Fresh environment installs wheel; model/tests/artifacts/HTTP checks | GitHub-hosted CI not executed until publication |
 | GitHub preparation | ignore rules, README publication commands | Existing Git/history inspected; archive inventory checked | Not published; no fabricated commits |
 

@@ -1354,7 +1354,7 @@
           "key": "transaction.cash_price",
           "payload_hash": "bcf0bb766e92dbe887573b9df891e8a61bf388ade381da9dea055ed1d8e28814",
           "section": "Additional Transaction Details; operating efficiencies",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Reported financial statement amount"
         },
@@ -1362,7 +1362,7 @@
           "key": "transaction.exchange_ratio",
           "payload_hash": "302aca10272fd957c8e85085b08c77d8193a3053fbfc092d315ff23d46778ce6",
           "section": "Additional Transaction Details; operating efficiencies",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Reported financial statement amount"
         },
@@ -1370,7 +1370,7 @@
           "key": "transaction.equity_value",
           "payload_hash": "094349ec1e851455e9a18323541394f507f652503060154c97ebea2e083b9709",
           "section": "Additional Transaction Details; operating efficiencies",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Reported financial statement amount"
         },
@@ -1378,7 +1378,7 @@
           "key": "transaction.enterprise_value",
           "payload_hash": "9c0669a454d3c8ed3fc4e5526b246018aa1e1efbe62971f42b4b0813c98a08e1",
           "section": "Additional Transaction Details; operating efficiencies",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Reported financial statement amount"
         },
@@ -1386,7 +1386,7 @@
           "key": "transaction.synergy_guidance",
           "payload_hash": "51f7e362aaaeed2ec8432271e1ad822e4c8523edeeb411368c905a680e0d0f1c",
           "section": "Additional Transaction Details; operating efficiencies",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Reported financial statement amount"
         },
@@ -1394,7 +1394,7 @@
           "key": "transaction.election_restrictions",
           "payload_hash": "515fbc42a7a2d89e5ab81f0c9f739238b1e901a548136653bb1bee85923c85a9",
           "section": "Additional Transaction Details; operating efficiencies",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Reported financial statement amount"
         }
@@ -1417,7 +1417,7 @@
           "key": "acquirer.FY2024.revenue",
           "payload_hash": "ca7be91fbcba6c3d681b824c76c19b06c1704e0f38b1f8ad8892645614e0675f",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Statement amount; DKS thousands converted to millions"
         },
@@ -1425,7 +1425,7 @@
           "key": "acquirer.FY2023.revenue",
           "payload_hash": "f6d93097b884caf60e3106696eb8385f9127f0d831fdf8cf128b3f07f457b384",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Statement amount; DKS thousands converted to millions"
         },
@@ -1433,7 +1433,7 @@
           "key": "acquirer.FY2022.revenue",
           "payload_hash": "cea87899e37904cc1d150ac5cde42d207708300c4e18815492258fcfb6fe77c6",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Statement amount; DKS thousands converted to millions"
         },
@@ -1441,7 +1441,7 @@
           "key": "acquirer.FY2024.operating_profit",
           "payload_hash": "ab40e592da46809c71250077c34218eba52da988dea433b26f4dd0c36f281822",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Statement amount; DKS thousands converted to millions"
         },
@@ -1449,7 +1449,7 @@
           "key": "acquirer.FY2023.operating_profit",
           "payload_hash": "4ce2789529e80022943cd169a1377b0c2200e7d787df44e99e375f601c453f93",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Statement amount; DKS thousands converted to millions"
         },
@@ -1457,7 +1457,7 @@
           "key": "acquirer.FY2022.operating_profit",
           "payload_hash": "b43cb939a7607ba147c876d42aa4927b578ea22cfd97515165f0501f722230cc",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Statement amount; DKS thousands converted to millions"
         },
@@ -1465,7 +1465,7 @@
           "key": "acquirer.FY2024.depreciation_amortisation",
           "payload_hash": "559cd89f5be67bc3158eda9928e3c589dc53216690a57321ad03426ccffa4197",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Cash-flow D&A line; DKS FY2022/23 includes disclosed impairments"
         },
@@ -1473,7 +1473,7 @@
           "key": "acquirer.FY2023.depreciation_amortisation",
           "payload_hash": "d94ee529d2fd8183bf7b4934e0fa600e6f897d17c5fea223acc0c40a59c8f49b",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Cash-flow D&A line; DKS FY2022/23 includes disclosed impairments"
         },
@@ -1481,7 +1481,7 @@
           "key": "acquirer.FY2022.depreciation_amortisation",
           "payload_hash": "4c1b015fcd3c1e9f728c9e1668851e46c8073e3b36d340762037aac3fa59567c",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Cash-flow D&A line; DKS FY2022/23 includes disclosed impairments"
         },
@@ -1489,7 +1489,7 @@
           "key": "acquirer.FY2024.operating_cash_flow",
           "payload_hash": "b731373c4dc6f1e99dc145f4a67b2a19543018c1122014c8fce55d44894eb9bc",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Statement amount; DKS thousands converted to millions"
         },
@@ -1497,7 +1497,7 @@
           "key": "acquirer.FY2023.operating_cash_flow",
           "payload_hash": "02c15fcbd98fbd924f152257dbf34fd38be27f8ae902268cc11e016808c05b73",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Statement amount; DKS thousands converted to millions"
         },
@@ -1505,7 +1505,7 @@
           "key": "acquirer.FY2022.operating_cash_flow",
           "payload_hash": "f1308e205d6642f163f85e2cf14907365ac70574bd56cd2f36aadfce6d5e2f71",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Statement amount; DKS thousands converted to millions"
         },
@@ -1513,7 +1513,7 @@
           "key": "acquirer.FY2024.capex",
           "payload_hash": "a3c544cb9e6adf9b44be6ea49ad9d0d13e71b55d044170d382b1e6d838c4bcc3",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Gross cash capital expenditures; positive outflow"
         },
@@ -1521,7 +1521,7 @@
           "key": "acquirer.FY2023.capex",
           "payload_hash": "e23df07c5f46c14ddb97001e3afeaf12472a2b56a1aeb2b9acd4175eb6a7a8b7",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Gross cash capital expenditures; positive outflow"
         },
@@ -1529,7 +1529,7 @@
           "key": "acquirer.FY2022.capex",
           "payload_hash": "cca4046ced130909f6976aea8e23b31d8bdd61d605e703db84268f6c7a23d69a",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Gross cash capital expenditures; positive outflow"
         },
@@ -1537,7 +1537,7 @@
           "key": "acquirer.FY2024.taxes",
           "payload_hash": "95ab3952caec0783e5624efc3532663060fecf4e0408321f60c55d304aeaea3d",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Cash income taxes paid, not provision"
         },
@@ -1545,7 +1545,7 @@
           "key": "acquirer.FY2023.taxes",
           "payload_hash": "7373806bb1e049df18ac07f3fa7f389a5b6f6afb5e9dcabc1f33115b1c89002c",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Cash income taxes paid, not provision"
         },
@@ -1553,7 +1553,7 @@
           "key": "acquirer.FY2022.taxes",
           "payload_hash": "496912e006e97090497b27f8c07e6111a11182f5879ff481d58f6592f2345103",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Cash income taxes paid, not provision"
         },
@@ -1561,7 +1561,7 @@
           "key": "acquirer.FY2024.inventory",
           "payload_hash": "3aa2c007b690141770f66b992d90c5561153e3bc6b12471cc96a7683afe48dda",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Reported financial statement amount"
         },
@@ -1569,7 +1569,7 @@
           "key": "acquirer.FY2023.inventory",
           "payload_hash": "2a90be8d138865b4ce55fd76fe217edf0e0bd87015832e4c18354033af4844fe",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Reported financial statement amount"
         },
@@ -1577,7 +1577,7 @@
           "key": "acquirer.FY2024.receivables",
           "payload_hash": "2f063b75161e6cd06470014955855f99819dff870355117371356f5d0d788394",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Reported financial statement amount"
         },
@@ -1585,7 +1585,7 @@
           "key": "acquirer.FY2023.receivables",
           "payload_hash": "2d048da6bf32becb23ddcddf7d7cd5cd429406b98ee770fd2aa6d453bb0a94aa",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Reported financial statement amount"
         },
@@ -1593,7 +1593,7 @@
           "key": "acquirer.FY2024.payables",
           "payload_hash": "c3407e87bb751340a91706360239999948562992090570adb18ed3e3d593491e",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Reported financial statement amount"
         },
@@ -1601,7 +1601,7 @@
           "key": "acquirer.FY2023.payables",
           "payload_hash": "f48bcdf5df47fa390b16119ba0dbe7389ea6dd1677d6c54f765ae254a062ec18",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Reported financial statement amount"
         },
@@ -1609,7 +1609,7 @@
           "key": "acquirer.opening.debt_carrying_value",
           "payload_hash": "10ef425e24cc290edbb0bb578e92938ab3bf55e7f36b99fccc935bab03558494",
           "section": "Statements pp.46,48,50; Note 9",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; DKS senior-note carrying amount; FL notes plus finance-lease carrying amount. Not principal."
         }
@@ -1632,7 +1632,7 @@
           "key": "target.FY2024.revenue",
           "payload_hash": "905b219df4a06ad8feecdae307f59f06ff0a0db1dea533c657efa1e6e37e5695",
           "section": "Statements pp.36,38,40; Notes 13,14",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Total revenue including licensing"
         },
@@ -1640,7 +1640,7 @@
           "key": "target.FY2023.revenue",
           "payload_hash": "7d32dce0fc2f364d1e9ba590997b4a86b89fa8de64fc243d74943e6ade297fc4",
           "section": "Statements pp.36,38,40; Notes 13,14",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Total revenue including licensing"
         },
@@ -1648,7 +1648,7 @@
           "key": "target.FY2022.revenue",
           "payload_hash": "e978688f393a3b5574f62f306f7035cd601afacfb1f37e5570d81efa8e9c9f00",
           "section": "Statements pp.36,38,40; Notes 13,14",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Total revenue including licensing"
         },
@@ -1656,7 +1656,7 @@
           "key": "target.FY2024.operating_profit",
           "payload_hash": "4efd3c26ee5939ea9522023b95752e6170b87b02053b6d7197a7a6f096f3672d",
           "section": "Statements pp.36,38,40; Notes 13,14",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Statement amount; DKS thousands converted to millions"
         },
@@ -1664,7 +1664,7 @@
           "key": "target.FY2023.operating_profit",
           "payload_hash": "55b34960c34e6f2b2296c4bf0e67ffc08d4bb197ede9a8a0fb182365a8846c71",
           "section": "Statements pp.36,38,40; Notes 13,14",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Statement amount; DKS thousands converted to millions"
         },
@@ -1672,7 +1672,7 @@
           "key": "target.FY2022.operating_profit",
           "payload_hash": "8ffd350bcce15c6eb5a0f9b3f3945dc4b9c7d7e401c5acf316875e1ba0321553",
           "section": "Statements pp.36,38,40; Notes 13,14",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Statement amount; DKS thousands converted to millions"
         },
@@ -1680,7 +1680,7 @@
           "key": "target.FY2024.depreciation_amortisation",
           "payload_hash": "82cf1d0a3eb26215f0a0b38b27308d83f740c16dba845a65b85416c954931609",
           "section": "Statements pp.36,38,40; Notes 13,14",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Cash-flow D&A line; DKS FY2022/23 includes disclosed impairments"
         },
@@ -1688,7 +1688,7 @@
           "key": "target.FY2023.depreciation_amortisation",
           "payload_hash": "c77cbc762fa14492ee675442d4ccc4ae5e3ebb44f0695a80bc478c630a3129f9",
           "section": "Statements pp.36,38,40; Notes 13,14",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Cash-flow D&A line; DKS FY2022/23 includes disclosed impairments"
         },
@@ -1696,7 +1696,7 @@
           "key": "target.FY2022.depreciation_amortisation",
           "payload_hash": "eeb65127afdede0ed473203794345216e1420977839a0e23f8da50dea67838de",
           "section": "Statements pp.36,38,40; Notes 13,14",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Cash-flow D&A line; DKS FY2022/23 includes disclosed impairments"
         },
@@ -1704,7 +1704,7 @@
           "key": "target.FY2024.operating_cash_flow",
           "payload_hash": "74504142575f5f26d47dfe04cbe5a4de1690a671bfd72fa1b7f629d24aef3bff",
           "section": "Statements pp.36,38,40; Notes 13,14",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Statement amount; DKS thousands converted to millions"
         },
@@ -1712,7 +1712,7 @@
           "key": "target.FY2023.operating_cash_flow",
           "payload_hash": "f6f2e7cabdcdb0883584469eae8b44e6a1d27449384e85cf93a7c584cbfb3823",
           "section": "Statements pp.36,38,40; Notes 13,14",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Statement amount; DKS thousands converted to millions"
         },
@@ -1720,7 +1720,7 @@
           "key": "target.FY2022.operating_cash_flow",
           "payload_hash": "1d62ca18c02a71242a1050d95ae98b02db30d008d6b9d8028763f64184a301d0",
           "section": "Statements pp.36,38,40; Notes 13,14",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Statement amount; DKS thousands converted to millions"
         },
@@ -1728,7 +1728,7 @@
           "key": "target.FY2024.capex",
           "payload_hash": "1ac765167e6d22fd65a00f0dbc9fd9252e6190d38485c21dfc28faa311ed588f",
           "section": "Statements pp.36,38,40; Notes 13,14",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Gross cash capital expenditures; positive outflow"
         },
@@ -1736,7 +1736,7 @@
           "key": "target.FY2023.capex",
           "payload_hash": "287c77708cae9e48b84f63ea85dc9e9b761b88286f6e47884ab0ab9e3f71f944",
           "section": "Statements pp.36,38,40; Notes 13,14",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Gross cash capital expenditures; positive outflow"
         },
@@ -1744,7 +1744,7 @@
           "key": "target.FY2022.capex",
           "payload_hash": "d2dc6ac9fcc7d677d0ef4b59e9d7499175796ebf8369f78149de0d77ab809114",
           "section": "Statements pp.36,38,40; Notes 13,14",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Gross cash capital expenditures; positive outflow"
         },
@@ -1752,7 +1752,7 @@
           "key": "target.FY2024.taxes",
           "payload_hash": "1687de05f6f4f3b28f816b03bba35ffd0014d807baef3d35ac4d642833c35ec0",
           "section": "Statements pp.36,38,40; Notes 13,14",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Cash income taxes paid, not provision"
         },
@@ -1760,7 +1760,7 @@
           "key": "target.FY2023.taxes",
           "payload_hash": "029138ba2779ff816b89bc80a416f28b3de43399d511f04196746023ea36a487",
           "section": "Statements pp.36,38,40; Notes 13,14",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Cash income taxes paid, not provision"
         },
@@ -1768,7 +1768,7 @@
           "key": "target.FY2022.taxes",
           "payload_hash": "579a096d6bc09f6cbb871eedaacb90506615b5a00c4a18060e78aaf7b5b74ac1",
           "section": "Statements pp.36,38,40; Notes 13,14",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Cash income taxes paid, not provision"
         },
@@ -1776,7 +1776,7 @@
           "key": "target.FY2024.inventory",
           "payload_hash": "28f2507ffc775c034bcb07b0248fa379e9cce066f365a49ddbf89fb770395431",
           "section": "Statements pp.36,38,40; Notes 13,14",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Reported financial statement amount"
         },
@@ -1784,7 +1784,7 @@
           "key": "target.FY2023.inventory",
           "payload_hash": "a51a354d1b75b259f7e9fc1a6fbf0bc6628c0140405e4917d405ce452fa33c44",
           "section": "Statements pp.36,38,40; Notes 13,14",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Reported financial statement amount"
         },
@@ -1792,7 +1792,7 @@
           "key": "target.FY2024.payables",
           "payload_hash": "6525b3f2f8d6176202a3d8bfb299837e5ca54a58db897dcbc40f2816f7d88cae",
           "section": "Statements pp.36,38,40; Notes 13,14",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Reported financial statement amount"
         },
@@ -1800,7 +1800,7 @@
           "key": "target.FY2023.payables",
           "payload_hash": "dfd868174bf251e490cbd6169a5e00138b72641fc84698ecd96d34fd03aff32e",
           "section": "Statements pp.36,38,40; Notes 13,14",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; Reported financial statement amount"
         },
@@ -1808,7 +1808,7 @@
           "key": "target.opening.debt_carrying_value",
           "payload_hash": "e4b9998b4247272db0a3c7417d288e3dda1f4fe40b98a1b79ec8b516f83fdb75",
           "section": "Statements pp.36,38,40; Notes 13,14",
-          "reviewer": "Codex - machine-assisted primary-source review; not human sign-off",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Reviewed numerical browser extraction; DKS senior-note carrying amount; FL notes plus finance-lease carrying amount. Not principal."
         }
@@ -1829,7 +1829,7 @@
           "key": "acquirer.debt.revolver_commitments",
           "payload_hash": "f317d299d362e34f2c4540f1204bc9e90ee53b5f00dfb0e74e7522d3d40a07c5",
           "section": "Note 9, p62; commitment is not unconditional borrowing availability",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Machine-assisted primary-document review: Note 9, p62; commitment is not unconditional borrowing availability"
         },
@@ -1837,7 +1837,7 @@
           "key": "acquirer.debt.borrowing_base_and_letters_of_credit",
           "payload_hash": "c910a81a146bffcb96804bf25cf43d004cde42c31c6487500bf238c7590ebdf1",
           "section": "Note 9, p62",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Machine-assisted primary-document review: Note 9, p62"
         },
@@ -1845,7 +1845,7 @@
           "key": "detail.acquirer.cash",
           "payload_hash": "68e45ea91fd26f3963178d675aa0e9eb542463fd4deaf3c0da8ab5bc367eaa58",
           "section": "Balance sheet p48, Note 1: cash and equivalents, NOT verified spendable acquisition cash",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-20",
           "review_note": "Machine-assisted primary-document review: Balance sheet p48, Note 1: cash and equivalents, NOT verified spendable acquisition cash Page reference spot-checked 20 September 2026; value unchanged."
         },
@@ -1853,7 +1853,7 @@
           "key": "detail.acquirer.notes_outstanding",
           "payload_hash": "62fbdf5b301e56e97646705ad277443cc77b373d9d7fa90c0238982d4e0f5295",
           "section": "Note 9: principal of 2032 and 2052 series at fiscal year-end",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Machine-assisted primary-document review: Note 9: principal of 2032 and 2052 series at fiscal year-end"
         },
@@ -1861,7 +1861,7 @@
           "key": "detail.acquirer.purchase_commitments",
           "payload_hash": "fdec2618c4db8a6debf7d7d54808f004070e0550897ef4a0873b16b917a1cf4e",
           "section": "MD&A p36 Contractual Obligations: approximate non-cancellable purchase commitments",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Machine-assisted primary-document review: MD&A p36 Contractual Obligations: approximate non-cancellable purchase commitments"
         },
@@ -1869,7 +1869,7 @@
           "key": "detail.acquirer.leases",
           "payload_hash": "80f9b48b3e0bf8d95e871dc5f2e5fc22a8a22f68776509731fb0946440745673",
           "section": "Note 7 pp60-61; fixed liability cash excludes other rent categories",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Machine-assisted primary-document review: Note 7 pp60-61; fixed liability cash excludes other rent categories"
         }
@@ -1890,7 +1890,7 @@
           "key": "target.FY2024.receivables",
           "payload_hash": "eaa41fd6553ea5f1d1e10957f75797d3221fd5c96e6336ebd0c1ca76f4bedf5d",
           "section": "Note 8, p54: net receivables",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Machine-assisted primary-document review: Note 8, p54: net receivables"
         },
@@ -1898,7 +1898,7 @@
           "key": "target.FY2023.receivables",
           "payload_hash": "34de0e2ff170399248434d06bf32c5e6c8080cab4bd091c089d2bbcef06dd3b2",
           "section": "Note 8, p54: comparative net receivables",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Machine-assisted primary-document review: Note 8, p54: comparative net receivables"
         },
@@ -1906,7 +1906,7 @@
           "key": "target.debt.revolver_commitments",
           "payload_hash": "ac1ea37e6df286a16921ccb63db408426dfd9594b8c88c4ab79db2f77d80711b",
           "section": "Note 13, p57; availability subject to borrowing base",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Machine-assisted primary-document review: Note 13, p57; availability subject to borrowing base"
         },
@@ -1914,7 +1914,7 @@
           "key": "detail.target.cash",
           "payload_hash": "d3f78c38db186e6fd1293a8c4fe60e171dd8ce0610eed50160764482f0c1cf47",
           "section": "Balance sheet p36; excludes separately classified restricted cash",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Machine-assisted primary-document review: Balance sheet p36; excludes separately classified restricted cash"
         },
@@ -1922,7 +1922,7 @@
           "key": "detail.target.restricted_cash",
           "payload_hash": "91f51d074f25a30dba0a5d6b8d82a1207c9e3c08569b19640b0cfe644b907ee2",
           "section": "Note 1 pp43-44; primarily lease escrow and insurance cash trust",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Machine-assisted primary-document review: Note 1 pp43-44; primarily lease escrow and insurance cash trust"
         },
@@ -1930,7 +1930,7 @@
           "key": "detail.target.notes_principal",
           "payload_hash": "5dcfcc92e890885721c842dcedf88000f2a7c2d6bc239b2b82e26dabd9934350",
           "section": "Note 13 p57: 4% notes; carrying 396 plus unamortized discount/costs 4",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Machine-assisted primary-document review: Note 13 p57: 4% notes; carrying 396 plus unamortized discount/costs 4"
         },
@@ -1938,7 +1938,7 @@
           "key": "detail.target.finance_lease",
           "payload_hash": "fb89a809c2912f86d12599f7b147f2a3052a08912371c27555eaf9b323aa2598",
           "section": "Notes 13 and 16: finance lease liability current 5 plus long-term 45; exclude operating leases",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Machine-assisted primary-document review: Notes 13 and 16: finance lease liability current 5 plus long-term 45; exclude operating leases"
         },
@@ -1946,7 +1946,7 @@
           "key": "detail.target.leases",
           "payload_hash": "7475ff8a312646701065bf6dc5721b0148eb3d9ecfdc2b43ff56684d3e2a15f7",
           "section": "Note 16 pp58-60; liabilities held for sale separately reported",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Machine-assisted primary-document review: Note 16 pp58-60; liabilities held for sale separately reported"
         }
@@ -1967,7 +1967,7 @@
           "key": "detail.transaction.capitalization",
           "payload_hash": "9ef63de72d4947be72cd9f242cd74fe5717b5737ca9f12c8e8a54e6fc7389cf5",
           "section": "Sections 4.2 and 5.2, capitalization date May 12; section 3.4 distinguishes award settlement",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Machine-assisted primary-document review: Sections 4.2 and 5.2, capitalization date May 12; section 3.4 distinguishes award settlement"
         },
@@ -1975,7 +1975,7 @@
           "key": "detail.transaction.debt_treatment",
           "payload_hash": "1152263e79469e1a69b2df3d55093c9937668c58b204a5f455ec188bde36f17f",
           "section": "Sections 3.4 and 7.16(a)-(b); payoff letter due at least one business day before closing",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Machine-assisted primary-document review: Sections 3.4 and 7.16(a)-(b); payoff letter due at least one business day before closing"
         }
@@ -1996,7 +1996,7 @@
           "key": "detail.acquirer.notes",
           "payload_hash": "bc5c31b976b2599efea1a22081ae891e390f548856bb342aae280d887b021291",
           "section": "Sections 2.2-2.3; principal issuance corroborated by FY2024 Note 9",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Machine-assisted primary-document review: Sections 2.2-2.3; principal issuance corroborated by FY2024 Note 9"
         }
@@ -2017,7 +2017,7 @@
           "key": "detail.target.notes_terms",
           "payload_hash": "072d26c0d856fe34e96f409e62ff373b650338aa72c1269b7ef4d6dcc6b1cad1",
           "section": "Definitions, Sections 3.07 and 4.10; note form",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Machine-assisted primary-document review: Definitions, Sections 3.07 and 4.10; note form"
         }
@@ -2038,7 +2038,7 @@
           "key": "detail.acquirer.covenant",
           "payload_hash": "89b190c4a74d39686dfbe7637a8c68f2c4b137b4895805c28879dbae377d6c3e",
           "section": "Definitions and Section 6.12; election is conditional, not automatic",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Machine-assisted primary-document review: Definitions and Section 6.12; election is conditional, not automatic"
         }
@@ -2059,7 +2059,7 @@
           "key": "detail.target.abl",
           "payload_hash": "4bad05468a9d6d4bfce99fcbf94be5bc4a5fedc125fb03b63cf95c07ea5cb5f6",
           "section": "Definitions; Sections 7.06, financial covenant and 8.01(k); amendment annex",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Machine-assisted primary-document review: Definitions; Sections 7.06, financial covenant and 8.01(k); amendment annex"
         }
@@ -2080,7 +2080,7 @@
           "key": "detail.acquirer.ytd_cash_flow",
           "payload_hash": "69ef05b275fcc021586c8262300c6a868ab45100540230fd1ccac231abac39ea",
           "section": "Consolidated cash flows p7; thousands converted to millions",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Machine-assisted primary-document review: Consolidated cash flows p7; thousands converted to millions"
         }
@@ -2101,7 +2101,7 @@
           "key": "detail.target.ytd_cash_flow",
           "payload_hash": "6e2d6b311d8e387853aef11ecb5878c40c90ceb8c7c1489690fd240228d0e6c7",
           "section": "Cash flows and liquidity free-cash-flow reconciliation",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Machine-assisted primary-document review: Cash flows and liquidity free-cash-flow reconciliation"
         }
@@ -2122,7 +2122,7 @@
           "key": "detail.target.preliminary_q1",
           "payload_hash": "aed7f05d2b53d3485b6a64276cfcfb0b4460938017b80bc670e686fdcbd0dc6f",
           "section": "Preliminary First Quarter Results; NOT full financial statements or EBITDA",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Machine-assisted primary-document review: Preliminary First Quarter Results; NOT full financial statements or EBITDA"
         }
@@ -2143,7 +2143,7 @@
           "key": "detail.acquirer.preliminary_q1",
           "payload_hash": "205c7f8de6d4fa454bf574d4ca7a4441863a7fe6752f9fb64139ad35973a2cb0",
           "section": "Preliminary First Quarter Results; full results scheduled May 28, after cutoff",
-          "reviewer": "Codex machine-assisted review; not human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-14",
           "review_note": "Machine-assisted primary-document review: Preliminary First Quarter Results; full results scheduled May 28, after cutoff"
         }
@@ -2164,7 +2164,7 @@
           "key": "detail.acquirer.cost_classification",
           "payload_hash": "3c4f19bf51c7591d4b77ffd854f4ee49df55b940c039cd0d73bb66188be07914",
           "section": "FY2024 income statement p46; MD&A p32 and Note 1 p55: cost of sales includes occupancy and depreciation; not all variable.",
-          "reviewer": "Codex machine-assisted review; no human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-19",
           "review_note": "FY2024 income statement p46; MD&A p32 and Note 1 p55: cost of sales includes occupancy and depreciation; not all variable."
         }
@@ -2185,7 +2185,7 @@
           "key": "detail.target.cost_classification",
           "payload_hash": "126a34af789bb7f6c7a90c6cd969fe9de9fbd0f97dd05a7bdf142ae9b56e1594",
           "section": "FY2024 operations p36; MD&A p26; Note 16: store lease costs in cost of sales, non-store in SG&A. No impairment add-back.",
-          "reviewer": "Codex machine-assisted review; no human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-19",
           "review_note": "FY2024 operations p36; MD&A p26; Note 16: store lease costs in cost of sales, non-store in SG&A. No impairment add-back."
         }
@@ -2206,7 +2206,7 @@
           "key": "detail.acquirer.ytd_wc_cash",
           "payload_hash": "852e9fc3885f2be343dec4a588fa29d3213950cdde4ad0f2fc53481f7f3bec83",
           "section": "39-week cash flow statement p8: signed CFO contributions; thousands converted to USD millions.",
-          "reviewer": "Codex machine-assisted review; no human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-19",
           "review_note": "39-week cash flow statement p8: signed CFO contributions; thousands converted to USD millions."
         }
@@ -2227,7 +2227,7 @@
           "key": "detail.target.ytd_wc_cash",
           "payload_hash": "e53956492abbe7ebb09dfe0c04e7e197762931e7f87dfd46f5ce4ceeabe9c343",
           "section": "39-week cash flow statement p5: signed CFO contributions. Receivables are not separately disclosed; retain other cash-flow proxy and hold closing AR constant.",
-          "reviewer": "Codex machine-assisted review; no human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-19",
           "review_note": "39-week cash flow statement p5: signed CFO contributions. Receivables are not separately disclosed; retain other cash-flow proxy and hold closing AR constant."
         }
@@ -2248,7 +2248,7 @@
           "key": "detail.target.finance_maturities",
           "payload_hash": "407251f140998d1f1907487ec7b9e713b6ec7f0ed5da5420d2e6bfb5afe17aec",
           "section": "Note 16 pp59-60; FY2025-2029 and thereafter, not calendar years; discount rate is aggregate",
-          "reviewer": "Codex machine-assisted primary-source review; no human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-15",
           "review_note": "Machine-assisted review of primary filing: Note 16 pp59-60; FY2025-2029 and thereafter, not calendar years; discount rate is aggregate"
         },
@@ -2256,7 +2256,7 @@
           "key": "detail.target.letters_of_credit",
           "payload_hash": "2be5e4003f155d9dba679952636a0a03fab7bb7972f650f72372c7626c560c7b",
           "section": "Note 13 p57: outstanding letters of credit at February 1, 2025",
-          "reviewer": "Codex machine-assisted primary-source review; no human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-15",
           "review_note": "Machine-assisted review of primary filing: Note 13 p57: outstanding letters of credit at February 1, 2025"
         }
@@ -2277,7 +2277,7 @@
           "key": "detail.acquirer.distributions",
           "payload_hash": "b8090a25df31290f7a93ee2c2693544431b7710c022192515184201fd5efd778",
           "section": "FY2024 cash flows p50 and supplemental noncash information",
-          "reviewer": "Codex machine-assisted primary-source review; no human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-15",
           "review_note": "Machine-assisted review of primary filing: FY2024 cash flows p50 and supplemental noncash information"
         },
@@ -2285,7 +2285,7 @@
           "key": "detail.acquirer.other_liabilities",
           "payload_hash": "45b8033e9f555a9656c070d1fc2b2417df5323b156b081aed8e6d7d97f671bd6",
           "section": "Balance sheet p48 and Deferred revenue and other liabilities table; excludes gift cards, loyalty and deferred compensation",
-          "reviewer": "Codex machine-assisted primary-source review; no human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-20",
           "review_note": "Machine-assisted review of primary filing: Balance sheet p48 and Deferred revenue and other liabilities table; excludes gift cards, loyalty and deferred compensation Page reference spot-checked 20 September 2026; value unchanged."
         },
@@ -2293,7 +2293,7 @@
           "key": "detail.acquirer.planning_disclosures",
           "payload_hash": "53088165904ff451b92c8b2636e6cb56044408fb90526af65012416eaf6a518a",
           "section": "MD&A pp34-35 Capital Expenditures and Dividends; net capex is management guidance, dividend is a declaration",
-          "reviewer": "Codex machine-assisted primary-source review; no human signoff",
+          "reviewer": "Primary-source extraction review; no independent human sign-off",
           "reviewed_at": "2026-09-15",
           "review_note": "Machine-assisted review of primary filing: MD&A pp34-35 Capital Expenditures and Dividends; net capex is management guidance, dividend is a declaration"
         }

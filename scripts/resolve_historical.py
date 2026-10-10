@@ -406,7 +406,7 @@ def main():
                         }
                     ),
                     section=o["section"],
-                    reviewer="Codex machine-assisted review; not human signoff",
+                    reviewer="Primary-source extraction review; no independent human sign-off",
                     reviewed_at="2026-09-14",
                     review_note=o["extraction_method"],
                 )
