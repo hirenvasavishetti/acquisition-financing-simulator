@@ -28,23 +28,19 @@ The live site recalculates the Python model. JSON downloads are available in the
 
 ## Worked example: less borrowing does not remove the cash constraint
 
-In the conditional DICK’S / Foot Locker case, all three base funding structures fail the analytical screens. Consider one change: reduce initial annual capex budgets from $1,200m to $900m for DICK’S and from $300m to $240m for Foot Locker, and suspend discretionary dividends. Keep the other public-case assumptions, including 50% common-share stock election for mixed consideration, 75% access to projected DICK’S closing cash and a 7% new-debt rate.
+In the conditional DICK’S / Foot Locker case, reduce initial annual capex budgets to $900m and $240m respectively and suspend discretionary dividends. With other [public-case assumptions](data/public-assumptions.json) unchanged, mixed consideration requires **$1,136.6m of new borrowing**.
 
-For mixed consideration, the saved model produces the following results. Amounts are USD millions; growth reductions apply to each company’s annual forecast growth rates in all five years.
+| Annual growth reduction for both companies, years 1–5 | Minimum projected cash | Analytical screens |
+|---|---:|---|
+| None | $750.0m | Pass |
+| 1 percentage point | $750.0m | Pass |
+| 2 percentage points | $389.7m | Fail: cash first breaches in year 4 |
 
-| Lower-investment scenario | New borrowing at closing | Minimum projected cash | Analytical screens |
-|---|---:|---:|---|
-| No growth reduction | 1,136.6 | 750.0 | Pass |
-| Growth reduced by 1 percentage point | 1,136.6 | 750.0 | Pass |
-| Growth reduced by 2 percentage points | 1,136.6 | 389.7 | Fail: cash first breaches in year 4 |
+Lower investment and dividends retain cash; stock consideration reduces borrowing. But weaker growth reduces cash available for debt service. These growth penalties are sensitivity choices, not estimated consequences of cutting capex.
 
-Lower investment and suspended dividends retain cash, while stock consideration reduces the cash purchase price and borrowing requirement. But keeping growth unchanged after cutting investment is a favourable assumption. In the stronger growth sensitivity, borrowing starts at the same level and the cash reserve still fails. Lower operating cash generation leaves less room for debt service. The 1pp and 2pp reductions are sensitivity choices, not estimated effects of capex cuts.
+**Under the stated public-information assumptions and analytical thresholds, the model indicates that mixed consideration passes this lower-investment case but fails the stronger growth sensitivity.** The screens require $750m minimum cash, maximum 3.0x net leverage and minimum 4.0x interest coverage—not contractual covenants.
 
-**Under the stated public-information assumptions and analytical thresholds, the model indicates that mixed consideration passes the tested lower-investment/no-dividend case, but that result does not survive the stronger growth sensitivity.** The screens require at least $750m cash, net leverage no higher than 3.0x and interest coverage of at least 4.0x; they are not contractual covenants.
-
-This does not establish a preferred structure for the actual acquisition. Cash access remains assumed, and undisclosed lease-consent payments, award withholding and exceptional commitments are not fully bounded. The actual-company recommendation remains blocked.
-
-To reproduce, use the public-information CLI command below. The exact scenario names are `Lower reinvestment and dividends suspended`, `Linked lower investment - mild` and `Linked lower investment - stronger`. Saved inputs and results are in [public assumptions](data/public-assumptions.json) and [`public_information.comparisons`](public-output/report.json).
+Cash access is assumed, while lease-consent payments, award withholding and exceptional commitments remain incompletely bounded. **The actual-company recommendation remains blocked.** See [saved scenario results](public-output/report.json) and the public-information CLI command below to reproduce.
 
 ## Technical substance
 
