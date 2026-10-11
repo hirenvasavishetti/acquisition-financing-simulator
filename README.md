@@ -26,6 +26,26 @@ The live site recalculates the Python model. JSON downloads are available in the
 
 **Actual-company recommendation: Blocked — insufficient verified evidence.** The 23 unresolved material strict requirements are visible in the evidence register. Independently supported history and conditional projections remain available. No synthetic input fills a historical gap.
 
+## Worked example: less borrowing does not remove the cash constraint
+
+In the conditional DICK’S / Foot Locker case, all three base funding structures fail the analytical screens. Consider one change: reduce initial annual capex budgets from $1,200m to $900m for DICK’S and from $300m to $240m for Foot Locker, and suspend discretionary dividends. Keep the other public-case assumptions, including 50% common-share stock election for mixed consideration, 75% access to projected DICK’S closing cash and a 7% new-debt rate.
+
+For mixed consideration, the saved model produces the following results. Amounts are USD millions; growth reductions apply to each company’s annual forecast growth rates in all five years.
+
+| Lower-investment scenario | New borrowing at closing | Minimum projected cash | Analytical screens |
+|---|---:|---:|---|
+| No growth reduction | 1,136.6 | 750.0 | Pass |
+| Growth reduced by 1 percentage point | 1,136.6 | 750.0 | Pass |
+| Growth reduced by 2 percentage points | 1,136.6 | 389.7 | Fail: cash first breaches in year 4 |
+
+Lower investment and suspended dividends retain cash, while stock consideration reduces the cash purchase price and borrowing requirement. But keeping growth unchanged after cutting investment is a favourable assumption. In the stronger growth sensitivity, borrowing starts at the same level and the cash reserve still fails. Lower operating cash generation leaves less room for debt service. The 1pp and 2pp reductions are sensitivity choices, not estimated effects of capex cuts.
+
+**Under the stated public-information assumptions and analytical thresholds, the model indicates that mixed consideration passes the tested lower-investment/no-dividend case, but that result does not survive the stronger growth sensitivity.** The screens require at least $750m cash, net leverage no higher than 3.0x and interest coverage of at least 4.0x; they are not contractual covenants.
+
+This does not establish a preferred structure for the actual acquisition. Cash access remains assumed, and undisclosed lease-consent payments, award withholding and exceptional commitments are not fully bounded. The actual-company recommendation remains blocked.
+
+To reproduce, use the public-information CLI command below. The exact scenario names are `Lower reinvestment and dividends suspended`, `Linked lower investment - mild` and `Linked lower investment - stronger`. Saved inputs and results are in [public assumptions](data/public-assumptions.json) and [`public_information.comparisons`](public-output/report.json).
+
 ## Technical substance
 
 - Connected sources and uses, projected opening balances, five-year operations, taxes, investment, working capital and instrument-level debt service.
